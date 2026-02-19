@@ -1,4 +1,4 @@
-# PROXY // Neural Systems Interface
+# Proxy // Neural Systems Interface
 
 > Live profile control panel for full stack and intelligent systems engineering.
 
