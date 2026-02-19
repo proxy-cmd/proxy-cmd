@@ -1,3 +1,4 @@
+
 # Proxy // Neural Systems Interface
 
 > Live profile control panel for full stack and intelligent systems engineering.
@@ -19,6 +20,50 @@
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:0d1117&height=220&section=header&text=PROXY%20%7C%7C%20Neural%20Systems%20Engineer&fontSize=34&fontColor=00F0FF&fontAlign=50&fontAlignY=45&desc=Secure%20Modular%20Scalable%20Architecture&descAlign=50&descAlignY=68&descSize=16&animation=fadeIn" alt="Proxy neural systems banner" width="100%" />
 
+<svg width="100%" viewBox="0 0 1200 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Proxy neural systems banner">
+  <defs>
+    <linearGradient id="gridGlow" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.08"/>
+      <stop offset="50%" stop-color="#00f0ff" stop-opacity="0.24"/>
+      <stop offset="100%" stop-color="#00f0ff" stop-opacity="0.08"/>
+    </linearGradient>
+    <radialGradient id="pulseCore" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.40"/>
+      <stop offset="100%" stop-color="#00f0ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="280" fill="#0d1117"/>
+
+  <g stroke="url(#gridGlow)" stroke-width="1">
+    <line x1="0" y1="40" x2="1200" y2="40"/>
+    <line x1="0" y1="80" x2="1200" y2="80"/>
+    <line x1="0" y1="120" x2="1200" y2="120"/>
+    <line x1="0" y1="160" x2="1200" y2="160"/>
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="240" x2="1200" y2="240"/>
+
+    <line x1="120" y1="0" x2="120" y2="280"/>
+    <line x1="240" y1="0" x2="240" y2="280"/>
+    <line x1="360" y1="0" x2="360" y2="280"/>
+    <line x1="480" y1="0" x2="480" y2="280"/>
+    <line x1="600" y1="0" x2="600" y2="280"/>
+    <line x1="720" y1="0" x2="720" y2="280"/>
+    <line x1="840" y1="0" x2="840" y2="280"/>
+    <line x1="960" y1="0" x2="960" y2="280"/>
+    <line x1="1080" y1="0" x2="1080" y2="280"/>
+  </g>
+
+  <circle cx="600" cy="140" r="62" fill="url(#pulseCore)">
+    <animate attributeName="r" values="52;68;52" dur="3.4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.55;0.85;0.55" dur="3.4s" repeatCount="indefinite"/>
+  </circle>
+
+  <text x="600" y="132" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="48" fill="#d7fbff" letter-spacing="4">PROXY</text>
+  <text x="600" y="168" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="19" fill="#8adfea" letter-spacing="2">Neural Systems Engineer</text>
+</svg>
+
+
 </div>
 
 ### Neural System Configuration
@@ -26,7 +71,7 @@
 ```bash
 Identity: Proxy
 Discipline: BCA (Hons) - AI & ML
-Specialization: Full Stack + Intelligent Systems
+Specialization: Full Stack + Python Dev.
 Primary Stack: Python / React / Node / SQL
 Architecture Mode: Secure • Modular • Scalable
 Deployment State: Active Development
@@ -55,17 +100,15 @@ Deployment State: Active Development
 ### Live System Telemetry
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=proxy-cmd&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" alt="GitHub stats" />
-  <img height="170" src="https://streak-stats.demolab.com?user=proxy-cmd&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=proxy-cmd&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub stats" />
+  <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=proxy-cmd&theme=tokyonight&hide_border=true" alt="GitHub streak" />
   <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=proxy-cmd&theme=tokyo-night&hide_border=true" alt="GitHub activity graph" />
 </div>
 
 ### Contribution Snake
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake animation (live output branch)" />
-  <br />
-  <img src=".github/assets/snake-standby.svg" alt="Contribution snake standby animation" />
+  <img src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake animation" />
 </div>
 
 ### Active Deployments
