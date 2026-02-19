@@ -35,25 +35,6 @@
 
   <rect width="1200" height="280" fill="#0d1117"/>
 
-  <g stroke="url(#gridGlow)" stroke-width="1">
-    <line x1="0" y1="40" x2="1200" y2="40"/>
-    <line x1="0" y1="80" x2="1200" y2="80"/>
-    <line x1="0" y1="120" x2="1200" y2="120"/>
-    <line x1="0" y1="160" x2="1200" y2="160"/>
-    <line x1="0" y1="200" x2="1200" y2="200"/>
-    <line x1="0" y1="240" x2="1200" y2="240"/>
-
-    <line x1="120" y1="0" x2="120" y2="280"/>
-    <line x1="240" y1="0" x2="240" y2="280"/>
-    <line x1="360" y1="0" x2="360" y2="280"/>
-    <line x1="480" y1="0" x2="480" y2="280"/>
-    <line x1="600" y1="0" x2="600" y2="280"/>
-    <line x1="720" y1="0" x2="720" y2="280"/>
-    <line x1="840" y1="0" x2="840" y2="280"/>
-    <line x1="960" y1="0" x2="960" y2="280"/>
-    <line x1="1080" y1="0" x2="1080" y2="280"/>
-  </g>
-
   <circle cx="600" cy="140" r="62" fill="url(#pulseCore)">
     <animate attributeName="r" values="52;68;52" dur="3.4s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0.55;0.85;0.55" dur="3.4s" repeatCount="indefinite"/>
