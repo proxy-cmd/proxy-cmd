@@ -1,3 +1,8 @@
+
+# Proxy // Neural Systems Interface
+
+> Live profile control panel for full stack and intelligent systems engineering.
+
 <div align="center">
 
 <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=28&duration=2800&pause=700&color=00F0FF&center=true&vCenter=true&width=900&lines=Initializing+Neural+Interface...;Loading+AI+Core+Modules...;Proxy+%2F%2F+Full+Stack+%26+AI+Engineer;System+Status%3A+Operational" alt="Neural boot sequence" />
@@ -12,6 +17,7 @@
 ---
 
 <div align="center">
+
 
 <svg width="100%" viewBox="0 0 1200 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Proxy neural systems banner">
   <defs>
@@ -56,6 +62,7 @@
   <text x="600" y="168" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="19" fill="#8adfea" letter-spacing="2">Neural Systems Engineer</text>
 </svg>
 
+
 </div>
 
 ### Neural System Configuration
@@ -63,7 +70,7 @@
 ```bash
 Identity: Proxy
 Discipline: BCA (Hons) - AI & ML
-Specialization: Full Stack + Intelligent Systems
+Specialization: Full Stack + Python Dev.
 Primary Stack: Python / React / Node / SQL
 Architecture Mode: Secure • Modular • Scalable
 Deployment State: Active Development
