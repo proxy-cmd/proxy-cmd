@@ -18,6 +18,7 @@
 
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:0d1117&height=220&section=header&text=PROXY%20%7C%7C%20Neural%20Systems%20Engineer&fontSize=34&fontColor=00F0FF&fontAlign=50&fontAlignY=45&desc=Secure%20Modular%20Scalable%20Architecture&descAlign=50&descAlignY=68&descSize=16&animation=fadeIn" alt="Proxy neural systems banner" width="100%" />
 
 <svg width="100%" viewBox="0 0 1200 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Proxy neural systems banner">
   <defs>
