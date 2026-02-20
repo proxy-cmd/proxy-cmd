@@ -21,16 +21,18 @@
 </div>
 
 
-### Neural System Configuration
+## Neural System Configuration
 
-```bash
-Identity: Proxy
-Discipline: BCA (Hons) - AI & ML
-Specialization: Full Stack + Python (Data Analyst/Science).
-Primary Stack: Python / React / Node / SQL / MongoDB
-Architecture Mode: Secure • Modular • Scalable •
-Deployment State: Data-Driven Learning & Continuous Building
-```
+<div align="left" style="font-size: 17px; line-height: 1.8;">
+
+<b>Identity:</b> Proxy <br>
+<b>Discipline:</b> BCA (Hons) – <span style="color:#ff4d4d;"><b>AI & ML</b></span> <br>
+<b>Specialization:</b> Full Stack + Python (<span style="color:#ff4d4d;"><b>Data Analyst / Data Science</b></span>) <br>
+<b>Primary Stack:</b> Python / React / Node / SQL / MongoDB  <br>
+<b>Architecture Mode:</b> Secure • Modular • Scalable <br>
+<b>Deployment State:</b> <span style="color:#ff4d4d;"><b>Data-Driven Learning & Continuous Building</b></span>
+
+</div>
 
 ### Core Technology Matrix
 
