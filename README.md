@@ -39,17 +39,13 @@ Deployment State: Data-Driven Learning & Continuous Building
 
 ## How I Build
 
-## Engineering Philosophy
+I like building things and figuring out how they **actually work**.  
+I usually start by making something **functional first**, then I go back and improve the <span style="color:#ff4d4d;"><strong>structure</strong></span>, <span style="color:#ff4d4d;"><strong>performance</strong></span>, and <span style="color:#ff4d4d;"><strong>readability</strong></span>.
 
-<p style="font-size:16px; line-height:1.8;">
+I don’t like writing overly “smart” code that becomes hard to understand later.  
+If I can’t explain what I built clearly, I probably don’t understand it well enough yet. That’s why I focus on <span style="color:#ff4d4d;"><strong>fundamentals</strong></span> before trying to apply advanced ideas.
 
-I like building things and figuring out how they actually work. I usually start by making something functional, then go back and improve the structure, performance, and readability.
-
-I don’t like writing overly smart code that’s hard to understand later. If I can’t explain what I built clearly, I probably don’t understand it well enough yet. So I spend time learning the fundamentals before trying to apply them.
-
-Most of my learning comes from experimenting; trying ideas, breaking them, debugging them, and rebuilding them properly. That process has helped me understand systems more deeply til now instead of just copying solutions.
-
-</p>
+Most of my learning comes from <span style="color:#ff4d4d;"><strong>experimenting</strong></span>; trying ideas, breaking them, debugging them, and rebuilding them properly. That process has helped me understand systems deeply instead of just copying solutions.
 
 ## Live System Telemetry
 
@@ -102,27 +98,19 @@ Most of my learning comes from experimenting; trying ideas, breaking them, debug
 
 <a href="https://github.com/proxy-cmd">
   <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-
-&nbsp;&nbsp;&nbsp;
+</a>&nbsp;&nbsp;&nbsp;
 
 <a href="https://www.linkedin.com/in/your-linkedin">
   <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-
-&nbsp;&nbsp;&nbsp;
+</a>&nbsp;&nbsp;&nbsp;
 
 <a href="mailto:us094836@gmail.com">
   <img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-
-&nbsp;&nbsp;&nbsp;
+</a>&nbsp;&nbsp;&nbsp;
 
 <a href="https://www.threads.net/@yourthreadsusername">
   <img src="https://img.shields.io/badge/Threads-Follow-000000?style=for-the-badge&logo=threads&logoColor=white" />
-</a>
-
-&nbsp;&nbsp;&nbsp;
+</a>&nbsp;&nbsp;&nbsp;
 
 <a href="https://www.instagram.com/yourinstausername">
   <img src="https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
