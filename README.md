@@ -23,11 +23,11 @@
 ## Neural System Configuration
 
 ```bash
-Identity: Ujjwal
-Discipline: BCA (Hons) - AI & ML
+Name: Ujjwal
+Course: BCA (Hons) - AI & ML
 Specialization: Full Stack + Python (Data Analyst/Science).
-Primary Stack: Python / React / Node / SQL / MongoDB
-Architecture Mode: Secure • Modular • Scalable 
+Primary Stack: Python / React / Node / MySQL / MongoDB
+Architecture Mode: Robust Systems • Optimized Performance • Future-Ready Design 
 Deployment State: Data-Driven Learning & Continuous Building
 ```
 
