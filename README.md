@@ -3,12 +3,12 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=28&duration=2800&pause=700&color=00F0FF&center=true&vCenter=true&width=900&lines=Initializing+Neural+Interface...;Loading+AI+Core+Modules...;Proxy+%2F%2F+Full+Stack+%26+AI+ML;Loading Pandas+Numpy+Seaborn...;Data Science...;System+Status%3A+Operational" alt="Neural boot sequence" />
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=26&duration=2800&pause=700&color=00F0FF&center=true&vCenter=true&width=900&lines=Full+Stack+Developer;AI+%26+Machine+Learning+Student;Data+Science+Enthusiast;Continuously+Learning+%26+Building" alt="Typing animation" />
 
 <br />
 
-<img src="https://komarev.com/ghpvc/?username=proxy-cmd&label=Profile%20Views&color=0e75b6&style=flat" alt="profile views" />
-<img src="https://img.shields.io/github/followers/proxy-cmd?label=Followers&style=flat&color=00a8c6" alt="followers" />
+<img src="https://komarev.com/ghpvc/?username=proxy-cmd&label=Profile%20Views&color=0e75b6&style=flat" />
+<img src="https://img.shields.io/github/followers/proxy-cmd?label=Followers&style=flat&color=00a8c6" />
 
 </div>
 
@@ -16,30 +16,56 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:0d1117&height=220&section=header&text=PROXY%20%7C%7C%20AI?ML%20Data Science Student%20&fontSize=34&fontColor=00F0FF&fontAlign=50&fontAlignY=45&desc=Secure%20Modular%20Scalable%20Architecture&descAlign=50&descAlignY=68&descSize=16&animation=fadeIn" alt="Proxy neural systems banner" width="100%" />
+<svg width="100%" viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Proxy AI Banner">
 
-<svg width="100%" viewBox="0 0 1200 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Proxy neural systems banner">
   <defs>
     <linearGradient id="gridGlow" x1="0" x2="1" y1="0" y2="0">
       <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.08"/>
-      <stop offset="50%" stop-color="#00f0ff" stop-opacity="0.24"/>
+      <stop offset="50%" stop-color="#00f0ff" stop-opacity="0.25"/>
       <stop offset="100%" stop-color="#00f0ff" stop-opacity="0.08"/>
     </linearGradient>
-    <radialGradient id="pulseCore" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.40"/>
-      <stop offset="100%" stop-color="#00f0ff" stop-opacity="0"/>
-    </radialGradient>
   </defs>
 
-  <rect width="1200" height="280" fill="#0d1117"/>
+  <rect width="1200" height="260" fill="#0d1117"/>
 
-  <circle cx="600" cy="140" r="62" fill="url(#pulseCore)">
-    <animate attributeName="r" values="52;68;52" dur="3.4s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.55;0.85;0.55" dur="3.4s" repeatCount="indefinite"/>
-  </circle>
+  <!-- Subtle horizontal grid -->
+  <g stroke="url(#gridGlow)" stroke-width="1">
+    <line x1="0" y1="50" x2="1200" y2="50"/>
+    <line x1="0" y1="100" x2="1200" y2="100"/>
+    <line x1="0" y1="150" x2="1200" y2="150"/>
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+  </g>
 
-  <text x="600" y="132" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="48" fill="#d7fbff" letter-spacing="4">PROXY</text>
-  <text x="600" y="168" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="19" fill="#8adfea" letter-spacing="2">Neural Systems Engineer</text>
+  <!-- Title -->
+  <text x="600" y="115"
+        text-anchor="middle"
+        font-family="JetBrains Mono, monospace"
+        font-size="42"
+        fill="#e6ffff"
+        letter-spacing="3">
+        PROXY
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600" y="155"
+        text-anchor="middle"
+        font-family="JetBrains Mono, monospace"
+        font-size="18"
+        fill="#8adfea"
+        letter-spacing="2">
+        AI • Machine Learning • Data Science
+  </text>
+
+  <!-- Tagline -->
+  <text x="600" y="185"
+        text-anchor="middle"
+        font-family="JetBrains Mono, monospace"
+        font-size="14"
+        fill="#5fd9e6"
+        opacity="0.8">
+        Building Systems. Learning Deeply. Scaling Smartly.
+  </text>
+
 </svg>
 
 
