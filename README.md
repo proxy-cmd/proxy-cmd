@@ -1,4 +1,3 @@
-
 # Proxy || FULL STACK + AI/ML + DATA SCIENCE
 
 <div align="center">
@@ -23,16 +22,14 @@
 
 ## Neural System Configuration
 
-<div align="left" style="font-size: 17px; line-height: 1.8;">
-
-<b>Identity:</b> Proxy <br>
-<b>Discipline:</b> BCA (Hons) – <span style="color:#ff4d4d;"><b>AI & ML</b></span> <br>
-<b>Specialization:</b> Full Stack + Python (<span style="color:#ff4d4d;"><b>Data Analyst / Data Science</b></span>) <br>
-<b>Primary Stack:</b> Python / React / Node / SQL / MongoDB  <br>
-<b>Architecture Mode:</b> Secure • Modular • Scalable <br>
-<b>Deployment State:</b> <span style="color:#ff4d4d;"><b>Data-Driven Learning & Continuous Building</b></span>
-
-</div>
+```bash
+Identity: Proxy
+Discipline: BCA (Hons) - AI & ML
+Specialization: Full Stack + Python (Data Analyst/Science).
+Primary Stack: Python / React / Node / SQL / MongoDB
+Architecture Mode: Secure • Modular • Scalable 
+Deployment State: Data-Driven Learning & Continuous Building
+```
 
 ### Core Technology Matrix
 
@@ -42,18 +39,17 @@
 
 ## How I Build
 
-<details>
-<summary><strong>My Approach</strong></summary>
+## Engineering Philosophy
 
-<br/>
+<p style="font-size:16px; line-height:1.8;">
 
-- I build first, optimize later  
-- I prefer clean and readable code over clever tricks  
-- I learn concepts deeply before applying them  
-- I focus on understanding how systems work end-to-end  
-- I experiment, break things, and rebuild better  
+I like building things and figuring out how they actually work. I usually start by making something functional, then go back and improve the structure, performance, and readability.
 
-</details>
+I don’t like writing overly smart code that’s hard to understand later. If I can’t explain what I built clearly, I probably don’t understand it well enough yet. So I spend time learning the fundamentals before trying to apply them.
+
+Most of my learning comes from experimenting; trying ideas, breaking them, debugging them, and rebuilding them properly. That process has helped me understand systems more deeply til now instead of just copying solutions.
+
+</p>
 
 ## Live System Telemetry
 
@@ -81,8 +77,8 @@
 
 | Project | Tech Stack | Description | Status |
 |----------|------------|------------|---------|
-| SignaVoice – Hand Sign to Speech System | Python, OpenCV, MediaPipe, Text-to-Speech | Real-time hand gesture recognition system that converts sign language gestures into spoken voice output to assist communication. | Planned |
-| VisionAssist – Real-Time Object Detection System | Python, OpenCV, YOLO / Deep Learning Libraries | AI-based object detection system designed to identify nearby objects and provide real-time feedback to users. | Planned |
+| SignifyAI – Hand Sign to Speech System | Python, OpenCV, MediaPipe, Text-to-Speech | Real-time hand gesture recognition system that converts sign language gestures into spoken voice output to assist communication. | Planned |
+| VisioAI – Real-Time Object Detection System | Python, OpenCV, YOLO / Deep Learning Libraries | AI-based object detection system designed to identify nearby objects and provide real-time feedback to users. | Planned |
 
 ---
 
@@ -99,10 +95,31 @@
 | Project | Tech Stack | Description | Status |
 |----------|------------|------------|---------|
 | SportPulse – Multi-Sport Analytics Dashboard | HTML, CSS, JavaScript | Frontend-based sports analytics dashboard displaying multi-sport data with clean UI and responsive design. | Completed |
-### Signal Channels
+## Signal Channels
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/your-linkedin)
-[![Email](https://img.shields.io/badge/Email-us094836@gmail.com-1f2937?style=flat&logo=gmail&logoColor=white)](mailto:us094836@gmail.com)
+<p align="center">
+
+<a href="https://github.com/proxy-cmd">
+  <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+<a href="https://www.linkedin.com/in/your-linkedin">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+
+<a href="mailto:us094836@gmail.com">
+  <img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+
+<a href="https://www.threads.net/@yourthreadsusername">
+  <img src="https://img.shields.io/badge/Threads-Follow-000000?style=for-the-badge&logo=threads&logoColor=white" />
+</a>
+
+<a href="https://www.instagram.com/yourinstausername">
+  <img src="https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+</a>
+
+</p>
 
 ---
 
