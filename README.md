@@ -16,7 +16,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:0d1117&height=220&section=header&text=PROXY%20%7C%7C%20Neural%20Systems%20Engineer&fontSize=34&fontColor=00F0FF&fontAlign=50&fontAlignY=45&desc=Secure%20Modular%20Scalable%20Architecture&descAlign=50&descAlignY=68&descSize=16&animation=fadeIn" alt="Proxy neural systems banner" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:0d1117&height=220&section=header&text=PROXY%20%7C%7C%20AI%20%E2%80%A2%20ML%20%7C%20Data%20Science%20Student&fontSize=34&fontColor=00F0FF&fontAlign=50&fontAlignY=45&desc=Learning%20AI%20%E2%80%A2%20ML%20%7C%20Data%20Science%20Architecture&descAlign=50&descAlignY=68&descSize=16&animation=fadeIn" width="100%" />
 
 </div>
 
