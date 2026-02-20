@@ -1,5 +1,5 @@
 
-# Proxy // FULL STACK + AI/ML + DATA SCIENCE
+# Proxy || FULL STACK + AI/ML + DATA SCIENCE
 
 <div align="center">
 
@@ -16,46 +16,10 @@
 
 <div align="center">
 
-<svg width="100%" height="220" viewBox="0 0 1200 220" xmlns="http://www.w3.org/2000/svg">
-
-  <rect width="1200" height="220" fill="#0d1117"/>
-
-  <!-- Glow circle -->
-  <circle cx="600" cy="110" r="70" fill="#00f0ff" opacity="0.08"/>
-
-  <!-- Main Title -->
-  <text x="600" y="100"
-        text-anchor="middle"
-        font-family="monospace"
-        font-size="48"
-        fill="#e6ffff"
-        letter-spacing="4">
-        PROXY
-  </text>
-
-  <!-- Subtitle -->
-  <text x="600" y="135"
-        text-anchor="middle"
-        font-family="monospace"
-        font-size="18"
-        fill="#00f0ff"
-        letter-spacing="2">
-        AI • Machine Learning • Data Science
-  </text>
-
-  <!-- Tagline -->
-  <text x="600" y="165"
-        text-anchor="middle"
-        font-family="monospace"
-        font-size="14"
-        fill="#8adfea"
-        opacity="0.8">
-        Continuously Learning & Building
-  </text>
-
-</svg>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:0d1117&height=220&section=header&text=PROXY%20%7C%7C%20Neural%20Systems%20Engineer&fontSize=34&fontColor=00F0FF&fontAlign=50&fontAlignY=45&desc=Secure%20Modular%20Scalable%20Architecture&descAlign=50&descAlignY=68&descSize=16&animation=fadeIn" alt="Proxy neural systems banner" width="100%" />
 
 </div>
+
 
 ### Neural System Configuration
 
