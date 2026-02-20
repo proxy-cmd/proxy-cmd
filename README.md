@@ -95,6 +95,7 @@ Most of my learning comes from experimenting; trying ideas, breaking them, debug
 | Project | Tech Stack | Description | Status |
 |----------|------------|------------|---------|
 | SportPulse – Multi-Sport Analytics Dashboard | HTML, CSS, JavaScript | Frontend-based sports analytics dashboard displaying multi-sport data with clean UI and responsive design. | Completed |
+
 ## Signal Channels
 
 <p align="center">
@@ -103,17 +104,25 @@ Most of my learning comes from experimenting; trying ideas, breaking them, debug
   <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 
+&nbsp;&nbsp;&nbsp;
+
 <a href="https://www.linkedin.com/in/your-linkedin">
   <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
+
+&nbsp;&nbsp;&nbsp;
 
 <a href="mailto:us094836@gmail.com">
   <img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
 
+&nbsp;&nbsp;&nbsp;
+
 <a href="https://www.threads.net/@yourthreadsusername">
   <img src="https://img.shields.io/badge/Threads-Follow-000000?style=for-the-badge&logo=threads&logoColor=white" />
 </a>
+
+&nbsp;&nbsp;&nbsp;
 
 <a href="https://www.instagram.com/yourinstausername">
   <img src="https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
