@@ -23,7 +23,7 @@
 ## Neural System Configuration
 
 ```bash
-Identity: Proxy
+Identity: Ujjwal
 Discipline: BCA (Hons) - AI & ML
 Specialization: Full Stack + Python (Data Analyst/Science).
 Primary Stack: Python / React / Node / SQL / MongoDB
