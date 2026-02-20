@@ -16,7 +16,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:0d1117&height=220&section=header&text=PROXY%20%7C%7C%20AI • ML%20Data+Science%20Enthusiast&fontSize=34&fontColor=00F0FF&fontAlign=50&fontAlignY=45&desc=Learning%20AI • ML%20Data+Science%20Student&descAlign=50&descAlignY=68&descSize=16&animation=fadeIn" alt="Proxy neural systems banner" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:0d1117&height=220&section=header&text=PROXY%20%7C%7C%20Neural%20Systems%20Engineer&fontSize=34&fontColor=00F0FF&fontAlign=50&fontAlignY=45&desc=Secure%20Modular%20Scalable%20Architecture&descAlign=50&descAlignY=68&descSize=16&animation=fadeIn" alt="Proxy neural systems banner" width="100%" />
 
 </div>
 
@@ -100,7 +100,7 @@ Deployment State: Data-Driven Learning & Continuous Building
 ### Signal Channels
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/your-linkedin)
-[![Email](https://img.shields.io/badge/Email-contact%40domain.com-1f2937?style=flat&logo=gmail&logoColor=white)](mailto:us094836@gmail.com)
+[![Email](https://img.shields.io/badge/Email-us094836@gmail.com-1f2937?style=flat&logo=gmail&logoColor=white)](mailto:us094836@gmail.com)
 
 ---
 
