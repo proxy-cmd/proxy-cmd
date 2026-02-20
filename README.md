@@ -16,58 +16,44 @@
 
 <div align="center">
 
-<svg width="100%" viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Proxy AI Banner">
+<svg width="100%" height="220" viewBox="0 0 1200 220" xmlns="http://www.w3.org/2000/svg">
 
-  <defs>
-    <linearGradient id="gridGlow" x1="0" x2="1" y1="0" y2="0">
-      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.08"/>
-      <stop offset="50%" stop-color="#00f0ff" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#00f0ff" stop-opacity="0.08"/>
-    </linearGradient>
-  </defs>
+  <rect width="1200" height="220" fill="#0d1117"/>
 
-  <rect width="1200" height="260" fill="#0d1117"/>
+  <!-- Glow circle -->
+  <circle cx="600" cy="110" r="70" fill="#00f0ff" opacity="0.08"/>
 
-  <!-- Subtle horizontal grid -->
-  <g stroke="url(#gridGlow)" stroke-width="1">
-    <line x1="0" y1="50" x2="1200" y2="50"/>
-    <line x1="0" y1="100" x2="1200" y2="100"/>
-    <line x1="0" y1="150" x2="1200" y2="150"/>
-    <line x1="0" y1="200" x2="1200" y2="200"/>
-  </g>
-
-  <!-- Title -->
-  <text x="600" y="115"
+  <!-- Main Title -->
+  <text x="600" y="100"
         text-anchor="middle"
-        font-family="JetBrains Mono, monospace"
-        font-size="42"
+        font-family="monospace"
+        font-size="48"
         fill="#e6ffff"
-        letter-spacing="3">
+        letter-spacing="4">
         PROXY
   </text>
 
   <!-- Subtitle -->
-  <text x="600" y="155"
+  <text x="600" y="135"
         text-anchor="middle"
-        font-family="JetBrains Mono, monospace"
+        font-family="monospace"
         font-size="18"
-        fill="#8adfea"
+        fill="#00f0ff"
         letter-spacing="2">
         AI • Machine Learning • Data Science
   </text>
 
   <!-- Tagline -->
-  <text x="600" y="185"
+  <text x="600" y="165"
         text-anchor="middle"
-        font-family="JetBrains Mono, monospace"
+        font-family="monospace"
         font-size="14"
-        fill="#5fd9e6"
+        fill="#8adfea"
         opacity="0.8">
-        Building Systems. Learning Deeply. Scaling Smartly.
+        Continuously Learning & Building
   </text>
 
 </svg>
-
 
 </div>
 
