@@ -73,17 +73,16 @@ Most of my learning comes from <span style="color:#ff4d4d;"><strong>experimentin
 
 | Project | Tech Stack | Description | Status |
 |----------|------------|------------|---------|
-| SignifyAI – Hand Sign to Speech System | Python, OpenCV, MediaPipe, Text-to-Speech | Real-time hand gesture recognition system that converts sign language gestures into spoken voice output to assist communication. | Planned |
 | VisioAI – Real-Time Object Detection System | Python, OpenCV, YOLO / Deep Learning Libraries | AI-based object detection system designed to identify nearby objects and provide real-time feedback to users. | Planned |
 
 ---
 
-### 🚀 Active Project
+### 🚀 Active Projects
 
 | Project | Tech Stack | Description | Status |
 |----------|------------|------------|---------|
+| SignifyAI – Hand Sign to Speech System | Python, OpenCV, MediaPipe, Text-to-Speech | Real-time AI system that interprets hand gestures and converts sign language into spoken voice output to enable accessible communication. | Actively Developing |
 | University ERP Management System | React, Node.js, MongoDB | Full-stack ERP system for managing university operations including authentication, dashboards, and role-based modules. | Actively Developing |
-
 ---
 
 ### ✅ Completed Project
