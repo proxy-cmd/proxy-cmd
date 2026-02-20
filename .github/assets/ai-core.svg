@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1200 420" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+  <linearGradient id="coreGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#00f0ff"/>
+    <stop offset="100%" stop-color="#00ffaa"/>
+  </linearGradient>
+
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M40 0 L0 0 0 40" fill="none" stroke="#00f0ff" stroke-opacity="0.05"/>
+  </pattern>
+</defs>
+
+<!-- Background -->
+<rect width="1200" height="420" fill="#0b0f14"/>
+<rect width="1200" height="420" fill="url(#grid)"/>
+
+<!-- Radar Sweep -->
+<line x1="600" y1="200" x2="600" y2="110"
+      stroke="#00f0ff"
+      stroke-width="2">
+  <animateTransform attributeName="transform"
+                    type="rotate"
+                    from="0 600 200"
+                    to="360 600 200"
+                    dur="5s"
+                    repeatCount="indefinite"/>
+</line>
+
+<!-- Rotating Orbit -->
+<circle cx="600" cy="200" r="100"
+        fill="none"
+        stroke="#00f0ff"
+        stroke-width="2"
+        stroke-dasharray="8 8">
+  <animateTransform attributeName="transform"
+                    type="rotate"
+                    from="0 600 200"
+                    to="-360 600 200"
+                    dur="20s"
+                    repeatCount="indefinite"/>
+</circle>
+
+<!-- Pulsing Ring -->
+<circle cx="600" cy="200" r="60"
+        fill="none"
+        stroke="#00ffaa"
+        stroke-width="2">
+  <animate attributeName="r"
+           values="55;75;55"
+           dur="3s"
+           repeatCount="indefinite"/>
+  <animate attributeName="opacity"
+           values="0.8;0.3;0.8"
+           dur="3s"
+           repeatCount="indefinite"/>
+</circle>
+
+<!-- Core -->
+<circle cx="600" cy="200" r="25"
+        fill="url(#coreGrad)">
+  <animate attributeName="opacity"
+           values="0.7;1;0.7"
+           dur="2s"
+           repeatCount="indefinite"/>
+</circle>
+
+<!-- Moving Data Packet -->
+<circle r="6" fill="#00ffaa">
+  <animateMotion dur="6s" repeatCount="indefinite">
+    <mpath href="#orbitPath"/>
+  </animateMotion>
+</circle>
+
+<path id="orbitPath"
+      d="M 600 100
+         a 100 100 0 1 1 -1 0"
+      fill="none"/>
+
+<!-- Horizontal Scan Line -->
+<rect x="0" y="0" width="1200" height="4" fill="#00f0ff" opacity="0.2">
+  <animate attributeName="y"
+           values="0;420;0"
+           dur="6s"
+           repeatCount="indefinite"/>
+</rect>
+
+<!-- Boot Text -->
+<text x="600" y="350"
+      text-anchor="middle"
+      font-family="monospace"
+      font-size="26"
+      fill="#00f0ff"
+      letter-spacing="3">
+  PROXY AI CORE — SYSTEM ONLINE
+  <animate attributeName="opacity"
+           values="1;0.6;1"
+           dur="2s"
+           repeatCount="indefinite"/>
+</text>
+
+</svg>
