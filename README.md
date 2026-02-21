@@ -24,11 +24,19 @@
 
 ```bash
 Name: Ujjwal
-Course: BCA (Hons) - AI & ML
-Specialization: Full Stack + Python (Data Analyst/Science).
-Primary Stack: Python / React / Node / MySQL / MongoDB
-Architecture Mode: Robust Systems • Optimized Performance • Future-Ready Design 
-Deployment State: Data-Driven Learning & Continuous Building
+Course: BCA (Hons) – AI & ML
+
+Languages:
+Hindi (C2) | English (C1) | Japanese (A2 – CEFR)
+
+Focus Area:
+Full Stack Development & Python (Data Analytics / Data Science)
+
+Tech Stack:
+Python | React | Node.js | MySQL | MongoDB
+
+Currently Building:
+Scalable, data-driven applications with performance-focused architecture.
 ```
 
 ### Core Technology Matrix
