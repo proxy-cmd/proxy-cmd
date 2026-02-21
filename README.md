@@ -1,72 +1,67 @@
-# Proxy || FULL STACK + AI/ML + DATA SCIENCE
-
 <div align="center">
+  
+---
+  
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f172a,100:1e293b&height=200&section=header&text=Hi,+Im+Ujjwal+Sharma&fontSize=36&fontColor=00F0FF&fontAlign=50&fontAlignY=38&desc=AI%20%E2%80%A2%20ML%20Student%20|%20Data+Science%20Enthusiast&descAlign=50&descAlignY=65&descSize=17&animation=fadeIn" width="100%" />
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=26&duration=2800&pause=700&color=00F0FF&center=true&vCenter=true&width=900&lines=Full+Stack+Developer;AI+%26+Machine+Learning+Student;Data+Science+Enthusiast;Continuously+Learning+%26+Building" alt="Typing animation" />
 
-<br />
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=24&duration=2800&pause=700&color=00F0FF&center=true&vCenter=true&width=650&lines=AI+%26+Machine+Learning+Student;Building+Data-Driven+Projects;Continuously+Learning+%26+Improving" alt="Typing animation" />
 
-<img src="https://komarev.com/ghpvc/?username=proxy-cmd&label=Profile%20Views&color=0e75b6&style=flat" />
-<img src="https://img.shields.io/github/followers/proxy-cmd?label=Followers&style=flat&color=00a8c6" />
+<br/>
+
+<img src="https://img.shields.io/badge/Profile%20Views-256-0e75b6?style=for-the-badge&logo=github&logoColor=white" />
+<img src="https://img.shields.io/github/followers/proxy-cmd?label=Followers&style=for-the-badge&color=00a8c6" />
 
 </div>
+
+<br/>
 
 ---
 
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:0d1117&height=220&section=header&text=PROXY%20%7C%7C%20AI%20%E2%80%A2%20ML%20%7C%20Data%20Science%20Student&fontSize=34&fontColor=00F0FF&fontAlign=50&fontAlignY=45&desc=Learning%20AI%20%E2%80%A2%20ML%20%7C%20Data%20Science%20Architecture&descAlign=50&descAlignY=68&descSize=16&animation=fadeIn" width="100%" />
-
-</div>
-
-
-## Neural System Configuration
+## About Me
 
 ```bash
 Name: Ujjwal
-Course: BCA (Hons) – AI & ML
+Course: Bachelor’s in Computer Applications (AI & ML Specialization)
 
 Languages:
 Hindi (C2) | English (C1) | Japanese (A2 – CEFR)
 
-Focus Area:
-Full Stack Development & Python (Data Analytics / Data Science)
+Primary Focus:
+AI, Machine Learning & Data Science using Python.
 
-Tech Stack:
-Python | React | Node.js | MySQL | MongoDB
+Data & Python Tool:
+NumPy, Pandas, Matplotlib, OpenCV, MediaPipe
 
 Currently Building:
-Scalable, data-driven applications with performance-focused architecture.
+Working on a computer vision project and contributing to authentication and core modules in a university ERP system 
 ```
 
-### Core Technology Matrix
+### Technical Skills
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,javascript,react,nodejs,express,mongodb,mysql,html,css,git,github,seaborn,pandas,numpy&theme=dark" alt="Core technology matrix" />
+  <img src="https://skillicons.dev/icons?i=python,javascript,react,nodejs,express,mongodb,mysql,git,github&theme=dark" alt="Core technology matrix" />
 </div>
 
 ## How I Build
+I like building things and understanding how they actually work behind the scenes. I usually focus on making something work first, then I improve the structure, performance, and clarity step by step.
 
-I like building things and figuring out how they **actually work**.  
-I usually start by making something **functional first**, then I go back and improve the <span style="color:#ff4d4d;"><strong>structure</strong></span>, <span style="color:#ff4d4d;"><strong>performance</strong></span>, and <span style="color:#ff4d4d;"><strong>readability</strong></span>.
+I prefer writing clean and simple code. If I can’t explain what I built in simple words, I know I need to redo it and understand it better.
 
-I don’t like writing overly “smart” code that becomes hard to understand later.  
-If I can’t explain what I built clearly, I probably don’t understand it well enough yet. That’s why I focus on <span style="color:#ff4d4d;"><strong>fundamentals</strong></span> before trying to apply advanced ideas.
+Most of my learning comes from trying things on my own — building projects, breaking them, fixing bugs, and improving them over time. That process helps me grow much more than just reading or copying solutions.
 
-Most of my learning comes from <span style="color:#ff4d4d;"><strong>experimenting</strong></span>; trying ideas, breaking them, debugging them, and rebuilding them properly. That process has helped me understand systems deeply instead of just copying solutions.
-
-## Live System Telemetry
+## GitHub Activity
 
 <div align="center">
 
-  <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api?username=proxy-cmd&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
+  <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api?username=proxy-cmd&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=60" />
 
-  <img height="170" src="https://streak-stats.demolab.com?user=proxy-cmd&theme=tokyonight&hide_border=true" />
+  <img height="170" src="https://streak-stats.demolab.com?user=proxy-cmd&theme=tokyonight&hide_border=true&cache_seconds=60" />
 
 </div>
 
 <p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=proxy-cmd&theme=tokyo-night&hide_border=true" />
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=proxy-cmd&theme=tokyo-night&hide_border=true&area=true&cache_seconds=60" />
 </p>
 
 ### Contribution Snake
@@ -81,7 +76,7 @@ Most of my learning comes from <span style="color:#ff4d4d;"><strong>experimentin
 
 | Project | Tech Stack | Description | Status |
 |----------|------------|------------|---------|
-| VisioAI – Real-Time Object Detection System | Python, OpenCV, YOLO / Deep Learning Libraries | AI-based object detection system designed to identify nearby objects and provide real-time feedback to users. | Planned |
+| **VisioAI – Real-Time Object Detection System** | Python, OpenCV, YOLO | Real-time object detection system for live video streams using deep learning-based detection models. | Planned |
 
 ---
 
@@ -89,17 +84,18 @@ Most of my learning comes from <span style="color:#ff4d4d;"><strong>experimentin
 
 | Project | Tech Stack | Description | Status |
 |----------|------------|------------|---------|
-| SignifyAI – Hand Sign to Speech System | Python, OpenCV, MediaPipe, Text-to-Speech | Real-time AI system that interprets hand gestures and converts sign language into spoken voice output to enable accessible communication. | Actively Developing |
-| University ERP Management System | React, Node.js, MongoDB | Full-stack ERP system for managing university operations including authentication, dashboards, and role-based modules. | Actively Developing |
+| **SignifyAI – Hand Sign to Speech System** | Python, OpenCV, MediaPipe, Text-to-Speech | Real-time computer vision system that processes live webcam input, detects 21 hand landmarks per frame using MediaPipe, and converts recognized gestures into spoken output. | Actively Developing |
+| **University ERP Management System** | React, Node.js, MongoDB | Role-based ERP platform with authentication, dashboard modules, and structured backend APIs for academic workflow management. | Actively Developing |
+
 ---
 
 ### ✅ Completed Project
 
 | Project | Tech Stack | Description | Status |
 |----------|------------|------------|---------|
-| SportPulse – Multi-Sport Analytics Dashboard | HTML, CSS, JavaScript | Frontend-based sports analytics dashboard displaying multi-sport data with clean UI and responsive design. | Completed |
+| **SportPulse – Multi-Sport Analytics Dashboard** | HTML, CSS, JavaScript | Interactive sports analytics dashboard with structured data visualization and responsive UI. | Completed |
 
-## Signal Channels
+## Connect With Me
 
 <p align="center">
 
@@ -107,21 +103,24 @@ Most of my learning comes from <span style="color:#ff4d4d;"><strong>experimentin
   <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white" />
 </a>&nbsp;&nbsp;&nbsp;
 
-<a href="https://www.linkedin.com/in/your-linkedin">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>&nbsp;&nbsp;&nbsp;
-
 <a href="mailto:us094836@gmail.com">
   <img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>&nbsp;&nbsp;&nbsp;
 
-<a href="https://www.threads.net/@yourthreadsusername">
+<a href="https://www.threads.net/@proxy.vx_">
   <img src="https://img.shields.io/badge/Threads-Follow-000000?style=for-the-badge&logo=threads&logoColor=white" />
 </a>&nbsp;&nbsp;&nbsp;
 
-<a href="https://www.instagram.com/yourinstausername">
+<a href="https://www.instagram.com/proxy.vx_">
   <img src="https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
 </a>
+<!-- Discord Server Invite -->
+<a href="https://discord.gg/h8xta2EqZG">
+  <img src="https://img.shields.io/badge/Discord-Join_Community-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
+</a>&nbsp;&nbsp;&nbsp;
+
+<!-- Discord Username Display -->
+<img src="https://img.shields.io/badge/Discord-proxy.exe__-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
 
 </p>
 
@@ -129,6 +128,6 @@ Most of my learning comes from <span style="color:#ff4d4d;"><strong>experimentin
 
 <div align="center">
 
-`PROXY CORE ONLINE — BUILDING INTELLIGENT SYSTEMS`
+`Learning. Building. Improving.`
 
 </div>
