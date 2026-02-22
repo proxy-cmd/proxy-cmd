@@ -9,8 +9,8 @@
 
 <br/>
 
-<img src="https://img.shields.io/badge/Profile%20Views-256-0e75b6?style=for-the-badge&logo=github&logoColor=white" />
-<img src="https://img.shields.io/github/followers/proxy-cmd?label=Followers&style=for-the-badge&color=00a8c6&cache_seconds=10" />
+<img src="https://img.shields.io/badge/Profile%20Views-256-0e75b6?style=for-the-badge&logo=github&logoColor=white&cache_second=20" />
+<img src="https://img.shields.io/github/followers/proxy-cmd?label=Followers&style=for-the-badge&color=00a8c6&cache_seconds=20" />
 
 </div>
 
