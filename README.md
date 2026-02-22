@@ -54,14 +54,14 @@ Most of my learning comes from trying things on my own — building projects, br
 
 <div align="center">
 
-  <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api?username=proxy-cmd&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=10" />
+  <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api?username=proxy-cmd&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=20" />
 
-  <img height="170" src="https://streak-stats.demolab.com?user=proxy-cmd&theme=tokyonight&hide_border=true&cache_seconds=10" />
+  <img height="170" src="https://streak-stats.demolab.com?user=proxy-cmd&theme=tokyonight&hide_border=true&cache_seconds=20" />
 
 </div>
 
 <p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=proxy-cmd&theme=tokyo-night&hide_border=true&area=true&cache_seconds=10" />
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=proxy-cmd&theme=tokyo-night&hide_border=true&area=true&cache_seconds=20" />
 </p>
 
 ### Contribution Snake
