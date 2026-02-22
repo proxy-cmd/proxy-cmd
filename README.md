@@ -40,7 +40,7 @@ Working on a computer vision project and contributing to authentication and core
 ### Technical Skills
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,javascript,react,nodejs,express,mongodb,mysql,git,github&theme=dark" alt="Core technology matrix" />
+  <img src="https://skillicons.dev/icons?i=python,react,nodejs,express,javascript,mongodb,mysql,git,github&theme=dark" alt="Core technology matrix" />
 </div>
 
 ## How I Build
