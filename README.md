@@ -9,8 +9,8 @@
 
 <br/>
 
-<img src="https://img.shields.io/badge/Profile%20Views-256-0e75b6?style=for-the-badge&logo=github&logoColor=white&cache_second=20" />
-<img src="https://img.shields.io/github/followers/proxy-cmd?label=Followers&style=for-the-badge&color=00a8c6&cache_seconds=20" />
+<img src="https://img.shields.io/badge/Profile%20Views-256-0e75b6?style=for-the-badge&logo=github&logoColor=white&cache_second=10" />
+<img src="https://img.shields.io/github/followers/proxy-cmd?label=Followers&style=for-the-badge&color=00a8c6&cache_seconds=15" />
 
 </div>
 
@@ -54,20 +54,20 @@ Most of my learning comes from trying things on my own — building projects, br
 
 <div align="center">
 
-  <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api?username=proxy-cmd&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=30&v=2026" />
+  <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api?username=proxy-cmd&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=20&v=2026" />
 
-  <img height="170" src="https://streak-stats.demolab.com?user=proxy-cmd&theme=tokyonight&hide_border=true&cache_seconds=30&v=2026" />
+  <img height="170" src="https://streak-stats.demolab.com?user=proxy-cmd&theme=tokyonight&hide_border=true&cache_seconds=20&v=2026" />
 
 </div>
 
 <p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=proxy-cmd&theme=tokyo-night&hide_border=true&area=true&cache_seconds=30&v=2026" />
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=proxy-cmd&theme=tokyo-night&hide_border=true&area=true&cache_seconds=20&v=2026" />
 </p>
 
 ### Contribution Snake
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake animation&cache_seconds=10" />
+  <img src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake animation&cache_seconds=30" />
 </div>
 
 ## Projects
