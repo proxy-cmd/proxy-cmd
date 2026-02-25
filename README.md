@@ -10,7 +10,7 @@
 <br/>
 
 <img src="https://img.shields.io/badge/Profile%20Views-256-0e75b6?style=for-the-badge&logo=github&logoColor=white" />
-<img src="https://img.shields.io/github/followers/proxy-cmd?label=Followers&style=for-the-badge&color=00a8c6&cache_seconds=15" />
+<img src="https://img.shields.io/github/followers/proxy-cmd?label=Followers&style=for-the-badge&color=00a8c6&cache_seconds=10" />
 
 </div>
 
@@ -54,14 +54,14 @@ Most of my learning comes from trying things on my own — building projects, br
 
 <div align="center">
 
-  <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api?username=proxy-cmd&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=20&v=2026" />
+  <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api?username=proxy-cmd&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=15&v=2026" />
 
-  <img height="170" src="https://streak-stats.demolab.com?user=proxy-cmd&theme=tokyonight&hide_border=true&cache_seconds=20&v=2026" />
+  <img height="170" src="https://streak-stats.demolab.com?user=proxy-cmd&theme=tokyonight&hide_border=true&cache_seconds=15&v=2026" />
 
 </div>
 
 <p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=proxy-cmd&theme=tokyo-night&hide_border=true&area=true&cache_seconds=20&v=2026" />
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=proxy-cmd&theme=tokyo-night&hide_border=true&area=true&cache_seconds=15&v=2026" />
 </p>
 
 ### Contribution Snake
