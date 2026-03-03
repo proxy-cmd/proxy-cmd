@@ -1,20 +1,5 @@
 <table width="100%" cellspacing="0" cellpadding="0">
 <tr>
-<td width="82%" valign="middle">
-  <img width="620" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/main/.github/assets/entry-gate.svg?v=1" alt="Profile entry banner" />
-</td>
-<td width="18%" valign="middle" align="right">
-  <img width="90" src="https://user-images.githubusercontent.com/74038190/226127923-0e8b7792-7b3c-462b-951b-63c96ba1a5af.gif" alt="Typing cat mascot" />
-</td>
-</tr>
-</table>
-
-<p align="left">
-  <img width="468" src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" alt="Animated divider" />
-</p>
-
-<table width="100%" cellspacing="0" cellpadding="0">
-<tr>
 <td valign="top" width="58%">
 
 <p align="left">
