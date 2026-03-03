@@ -1,33 +1,26 @@
 ## Ujjwal Sharma
 
-<table>
+<table width="100%" cellspacing="0" cellpadding="0">
 <tr>
-<td valign="top" width="62%">
+<td valign="top" width="58%">
 
 <p align="left">
-  <img width="100%" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/main/.github/assets/profile-signal.svg?v=5" alt="Profile signal board" />
+  <img width="540" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/main/.github/assets/profile-signal.svg?v=6" alt="Profile signal board" />
 </p>
 
 <br />
 
-<table>
-<tr>
-<td>
+<p align="left">
   <img src="https://komarev.com/ghpvc/?username=proxy-cmd&label=PROFILE+VIEWS&color=1f6feb&style=for-the-badge" alt="Profile views" />
-</td>
-<td width="8"></td>
-<td>
-  <img src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/main/.github/assets/actively-building.svg?v=3" alt="Actively building" />
-</td>
-</tr>
-</table>
+  <img src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/main/.github/assets/actively-building.svg?v=4" alt="Actively building" />
+</p>
 
 </td>
-<td valign="top" width="38%" align="right">
+<td valign="top" width="42%" align="right">
 
-<img width="330" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/main/.github/assets/umaru-typing.gif?v=3" alt="Umaru typing gif" />
+<img width="300" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/main/.github/assets/umaru-typing.gif?v=3" alt="Umaru typing gif" />
 <br /><br />
-<img width="330" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/lines-changed.svg?v=allrepos-v9" alt="Total lines of code changed." />
+<img width="300" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/lines-changed.svg?v=allrepos-v9" alt="Total lines of code changed." />
 
 </td>
 </tr>
