@@ -1,6 +1,9 @@
 ﻿<div align="center">
   <img src="./.github/assets/neural-dock.svg" width="100%" height="180" alt="Animated neural dock" />
 
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=20&duration=2600&pause=700&color=00E5FF&center=true&vCenter=true&width=880&lines=AI+%7C+ML+Student+%7C+Data+Science+Enthusiast;Computer+Vision+%2B+Practical+ML;Building+Data-Driven+Systems+End-to-End" alt="Typing animation" />
+
+
   <p align="center">
     <img src="https://img.shields.io/badge/Profile%20Views-256-0e75b6?style=for-the-badge&logo=github&logoColor=white" />
     <img src="https://img.shields.io/github/followers/proxy-cmd?label=Followers&style=for-the-badge&color=0891b2" />
@@ -84,3 +87,4 @@ data_python_tools: NumPy, Pandas, Matplotlib, OpenCV, MediaPipe
 </p>
 
 `Learning. Building. Improving.`
+
