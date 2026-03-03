@@ -126,7 +126,7 @@ jobs:
           done
 
           total_changed=$((total_added + total_deleted))
-          subtitle="Total Lines Of Code Changed"
+          subtitle="Total Lines Of Code Changed (Public + Private Repo)"
           write_svg "Code Change Stats" "$subtitle" "$total_changed" "$total_added" "$total_deleted"
 
       - name: Deploy to output branch
