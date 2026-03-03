@@ -66,24 +66,13 @@ data_python_tools: NumPy, Pandas, Matplotlib, OpenCV, MediaPipe
 
 ## Daily Contribution Arcade
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/pacman-contribution-graph.svg">
-  <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/pacman-contribution-graph.svg">
-</picture>
-
-<details>
-<summary><strong>Contribution Snake (Legacy)</strong></summary>
-
-<br/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/github-contribution-grid-snake.svg">
-  <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/github-contribution-grid-snake.svg">
-</picture>
-
-</details>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/pacman-contribution-graph.svg">
+    <img width="100%" alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/pacman-contribution-graph.svg">
+  </picture>
+</p>
 
 ## Contact
 
