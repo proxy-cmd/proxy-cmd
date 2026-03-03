@@ -12,7 +12,7 @@
 
 <p align="left">
   <img src="https://komarev.com/ghpvc/?username=proxy-cmd&label=PROFILE+VIEWS&color=0e75b6&style=for-the-badge" alt="Profile views" />
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=16&duration=1200&pause=700&color=00D9FF&background=0D111700&center=true&vCenter=true&width=250&height=28&lines=ACTIVELY+BUILDING" alt="Actively building" />
+  <img src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/main/.github/assets/actively-building.svg?v=1" alt="Actively building" />
 </p>
 
 </td>
