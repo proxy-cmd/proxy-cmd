@@ -126,8 +126,8 @@ jobs:
           done
 
           total_changed=$((total_added + total_deleted))
-          subtitle="Total Lines Changed (All Repos: Public + Private)"
-          write_svg "Total lines of code changed." "$subtitle" "$total_changed" "$total_added" "$total_deleted"
+          subtitle="Total Lines Of Code Changed"
+          write_svg "Code Change Stats" "$subtitle" "$total_changed" "$total_added" "$total_deleted"
 
       - name: Deploy to output branch
         uses: crazy-max/ghaction-github-pages@v4
