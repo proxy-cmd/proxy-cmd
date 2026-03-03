@@ -11,7 +11,7 @@
 
 ## Ujjwal Sharma
 
-## Operator Profile
+## About Me
 
 ```yaml
 name: Ujjwal
@@ -21,13 +21,13 @@ primary_focus: AI, Machine Learning, and Data Science using Python
 data_python_tools: NumPy, Pandas, Matplotlib, OpenCV, MediaPipe
 ```
 
-## Build Signature
+## How I Work
 
-- Build for correctness first, then iterate on structure, performance, and clarity.
+- I make things work first, then improve structure, performance, and clarity.
 - Keep code clean and simple enough to explain in plain language.
-- Learn by shipping real projects, breaking things, debugging, and improving.
+- I learn by building real projects, fixing bugs, and improving step by step.
 
-## Stack Surface
+## Technical Skills
 
 <div align="left">
   <img src="https://skillicons.dev/icons?i=python,react,nodejs,express,javascript,mongodb,mysql,git,github&theme=dark" alt="Core technology matrix" />
@@ -39,7 +39,7 @@ data_python_tools: NumPy, Pandas, Matplotlib, OpenCV, MediaPipe
   <img src="https://img.shields.io/badge/Object%20Detection-YOLO-f97316?style=for-the-badge" />
 </div>
 
-## Mission Pipeline
+## Projects
 
 | Track | Project | Tech Stack | Description | Status |
 |---|---|---|---|---|
@@ -48,7 +48,7 @@ data_python_tools: NumPy, Pandas, Matplotlib, OpenCV, MediaPipe
 | Active | **University ERP Management System** | React, Node.js, MongoDB | Role-based ERP platform with authentication, dashboard modules, and structured backend APIs for academic workflow management. | Actively Developing |
 | Completed | **SportPulse - Multi-Sport Analytics Dashboard** | HTML, CSS, JavaScript | Interactive sports analytics dashboard with structured data visualization and responsive UI. | Completed |
 
-## Live Signals
+## GitHub Activity
 
 <p>
   <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=proxy-cmd&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
@@ -64,7 +64,7 @@ data_python_tools: NumPy, Pandas, Matplotlib, OpenCV, MediaPipe
   <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=proxy-cmd&theme=tokyo-night&hide_border=true&area=true" />
 </p>
 
-## Daily Contribution Arcade
+## Daily Contributions
 
 <p align="center">
   <picture>
