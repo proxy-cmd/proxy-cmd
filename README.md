@@ -1,6 +1,8 @@
-﻿<img align="right" width="360" src="./.github/assets/umaru-typing.gif" alt="Umaru typing gif" />
-
 ## Ujjwal Sharma
+
+<table>
+<tr>
+<td valign="top" width="56%">
 
 <p align="left">
   <img width="380" src="https://github-stats-alpha.vercel.app/api?username=proxy-cmd&cc=0d1117&tc=58a6ff&ic=58a6ff&bc=0000" alt="Detailed GitHub statistics" />
@@ -12,12 +14,18 @@
   <img src="https://img.shields.io/badge/Focus-AI%20%26%20ML-00bcd4?style=for-the-badge" />
 </p>
 
-<img align="right" width="360" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/lines-changed.svg?v=allrepos-v6" alt="Total lines of code changed." />
+</td>
+<td valign="top" width="44%" align="right">
 
-<br clear="right"/>
+<img width="340" src="./.github/assets/umaru-typing.gif" alt="Umaru typing gif" />
+<br /><br />
+<img width="340" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/lines-changed.svg?v=allrepos-v7" alt="Total lines of code changed." />
+
+</td>
+</tr>
+</table>
 
 ## About Me
-
 - Bachelor's in Computer Applications (AI & ML Specialization)
 - Hindi (C2) | English (C1) | Japanese (A2 - CEFR)
 - AI, Machine Learning, and Data Science using Python
@@ -86,6 +94,7 @@
 </p>
 
 `Learning. Building. Improving.`
+
 
 
 
