@@ -15,6 +15,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Generate pacman animation
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: proxy-cmd
+
       - name: Generate snake animation
         uses: Platane/snk@v3
         with:
@@ -22,11 +27,6 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - name: Generate pacman animation
-        uses: abozanona/pacman-contribution-graph@main
-        with:
-          github_user_name: proxy-cmd
 
       - name: Deploy to output branch
         uses: crazy-max/ghaction-github-pages@v4
