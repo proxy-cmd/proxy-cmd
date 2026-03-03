@@ -1,51 +1,62 @@
-﻿<div align="center">
+﻿# Ujjwal Sharma
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0b132b,40:1c2541,100:3a506b&height=90&section=header" width="100%" />
+`AI | ML Student | Data Science Enthusiast`  
+<img src="https://img.shields.io/badge/Profile%20Views-256-0e75b6?style=flat-square&logo=github&logoColor=white" /> <img src="https://img.shields.io/github/followers/proxy-cmd?label=Followers&style=flat-square&color=0891b2" /> <img src="https://img.shields.io/badge/Focus-AI%20%26%20ML-00bcd4?style=flat-square" />
 
-# Ujjwal Sharma
+---
 
-**AI | ML Student | Data Science Enthusiast**
+<table>
+<tr>
+<td width="54%" valign="top">
 
-<img src="https://img.shields.io/badge/Profile%20Views-256-0e75b6?style=flat-square&logo=github&logoColor=white" />
-<img src="https://img.shields.io/github/followers/proxy-cmd?label=Followers&style=flat-square&color=0891b2" />
-<img src="https://img.shields.io/badge/Focus-AI%20%26%20ML-00bcd4?style=flat-square" />
+### Dossier
 
-</div>
-
-```powershell
-PS profile:\> whoami
-Ujjwal
-
-PS profile:\> education
-Bachelor's in Computer Applications (AI & ML Specialization)
-
-PS profile:\> languages --cefr
-Hindi (C2) | English (C1) | Japanese (A2 - CEFR)
-
-PS profile:\> primary-focus
-AI, Machine Learning, and Data Science using Python
-
-PS profile:\> python-data-toolkit
-NumPy, Pandas, Matplotlib, OpenCV, MediaPipe
+```yaml
+name: Ujjwal
+course: Bachelor's in Computer Applications (AI & ML Specialization)
+languages: Hindi (C2) | English (C1) | Japanese (A2 - CEFR)
+primary_focus: AI, Machine Learning, and Data Science using Python
+data_python_tools: NumPy, Pandas, Matplotlib, OpenCV, MediaPipe
 ```
 
-## Build Signature
+### Build Signature
 
 - Build for correctness first, then iterate on structure, performance, and clarity.
 - Keep code clean and simple enough to explain in plain language.
 - Learn by shipping real projects, breaking things, debugging, and improving.
 
-## Stack Surface
+### Stack Surface
 
-<div align="center">
+<div align="left">
   <img src="https://skillicons.dev/icons?i=python,react,nodejs,express,javascript,mongodb,mysql,git,github&theme=dark" alt="Core technology matrix" />
 </div>
 
-<div align="center">
+<div align="left">
   <img src="https://img.shields.io/badge/Computer%20Vision-OpenCV-0ea5e9?style=flat-square" />
   <img src="https://img.shields.io/badge/Landmark%20Detection-MediaPipe-22c55e?style=flat-square" />
   <img src="https://img.shields.io/badge/Object%20Detection-YOLO-f97316?style=flat-square" />
 </div>
+
+</td>
+<td width="46%" valign="top">
+
+### Live Signals
+
+<img width="100%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=proxy-cmd&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
+
+<img width="100%" src="https://streak-stats.demolab.com?user=proxy-cmd&theme=tokyonight&hide_border=true" />
+
+<img width="100%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=proxy-cmd&layout=compact&theme=tokyonight&hide_border=true" />
+
+### Status Board
+
+- Active Focus: AI, ML, Data Science
+- Current Track: Computer Vision + Practical ML
+- Workflow: Build -> Break -> Debug -> Improve
+
+</td>
+</tr>
+</table>
 
 ## Mission Pipeline
 
@@ -56,16 +67,7 @@ NumPy, Pandas, Matplotlib, OpenCV, MediaPipe
 | Active | **University ERP Management System** | React, Node.js, MongoDB | Role-based ERP platform with authentication, dashboard modules, and structured backend APIs for academic workflow management. | Actively Developing |
 | Completed | **SportPulse - Multi-Sport Analytics Dashboard** | HTML, CSS, JavaScript | Interactive sports analytics dashboard with structured data visualization and responsive UI. | Completed |
 
-## Signal
-
-<div align="center">
-  <img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api?username=proxy-cmd&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
-  <img height="165" src="https://streak-stats.demolab.com?user=proxy-cmd&theme=tokyonight&hide_border=true" />
-</div>
-
-<div align="center">
-  <img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=proxy-cmd&layout=compact&theme=tokyonight&hide_border=true" />
-</div>
+## Activity Map
 
 <p align="center">
   <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=proxy-cmd&theme=tokyo-night&hide_border=true&area=true" />
@@ -84,7 +86,7 @@ NumPy, Pandas, Matplotlib, OpenCV, MediaPipe
 
 ## Contact
 
-<p align="center">
+<p align="left">
   <a href="https://github.com/proxy-cmd"><img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
   <a href="mailto:us094836@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://www.threads.net/@proxy.vx_"><img src="https://img.shields.io/badge/Threads-Follow-000000?style=for-the-badge&logo=threads&logoColor=white" /></a>
@@ -93,8 +95,4 @@ NumPy, Pandas, Matplotlib, OpenCV, MediaPipe
   <img src="https://img.shields.io/badge/Discord-proxy.exe__-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
 </p>
 
-<div align="center">
-
 `Learning. Building. Improving.`
-
-</div>
