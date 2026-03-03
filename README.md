@@ -9,10 +9,6 @@
 </tr>
 </table>
 
-<p align="left">
-  <img width="468" src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" alt="Animated divider" />
-</p>
-
 <table width="100%" cellspacing="0" cellpadding="0">
 <tr>
 <td valign="top" width="58%">
