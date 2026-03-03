@@ -19,7 +19,7 @@
 
 </td>
 <td width="42%" align="center" valign="middle">
-  <img src="https://media1.tenor.com/m/28mUekwjEMsAAAAd/himouto-umaru-chan-umaru.gif" width="280" alt="Umaru typing gif" />
+  <img src="https://media1.tenor.com/m/y-Z6sLQbm2kAAAAd/umaru-kawaii.gif" width="300" alt="Umaru typing gif" />
 </td>
 </tr>
 </table>
@@ -93,6 +93,7 @@
 </p>
 
 `Learning. Building. Improving.`
+
 
 
 
