@@ -15,11 +15,11 @@
 ## About Me
 
 ```yaml
-name: Ujjwal
-course: Bachelor's in Computer Applications (AI & ML Specialization)
-languages: Hindi (C2) | English (C1) | Japanese (A2 - CEFR)
-primary_focus: AI, Machine Learning, and Data Science using Python
-data_python_tools: NumPy, Pandas, Matplotlib, OpenCV, MediaPipe
+Name: Ujjwal Sharma
+Course: Bachelor's in Computer Applications (AI & ML Specialization)
+Spoken Languages: Hindi (C2) | English (C1) | Japanese (A2 - CEFR)
+Primary Focus: AI, Machine Learning, and Data Science using Python
+Tools: NumPy, Pandas, Matplotlib, OpenCV, MediaPipe
 ```
 
 ## How I Work
@@ -62,7 +62,7 @@ data_python_tools: NumPy, Pandas, Matplotlib, OpenCV, MediaPipe
 </p>
 
 <p align="center">
-  <img width="49%" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/lines-changed.svg" alt="Lines changed across repositories" />
+  <img width="49%" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/lines-changed.svg?v=allrepos-v2" alt="Lines changed across repositories" />
 </p>
 
 <p align="center">
