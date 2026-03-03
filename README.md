@@ -5,7 +5,7 @@
 <td valign="top" width="60%">
 
 <p align="left">
-  <img width="100%" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/main/.github/assets/profile-signal.svg?v=3" alt="Profile signal board" />
+  <img width="100%" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/main/.github/assets/profile-signal.svg?v=4" alt="Profile signal board" />
 </p>
 
 <br />
@@ -109,5 +109,4 @@ NumPy, Pandas, Matplotlib, OpenCV, MediaPipe
 `Learning. Building. Improving.`
 
 </div>
-
 
