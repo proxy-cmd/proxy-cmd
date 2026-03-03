@@ -1,7 +1,7 @@
-﻿<div align="left">
-  <img src="./.github/assets/neural-dock.svg" width="100%" alt="Animated neural dock" />
+﻿<div align="center">
+  <img src="./.github/assets/neural-dock.svg" width="100%" height="180" alt="Animated neural dock" />
 
-  <p align="left">
+  <p align="center">
     <img src="https://img.shields.io/badge/Profile%20Views-256-0e75b6?style=for-the-badge&logo=github&logoColor=white" />
     <img src="https://img.shields.io/github/followers/proxy-cmd?label=Followers&style=for-the-badge&color=0891b2" />
     <img src="https://img.shields.io/badge/Focus-AI%20%26%20ML-00bcd4?style=for-the-badge" />
@@ -28,11 +28,11 @@ data_python_tools: NumPy, Pandas, Matplotlib, OpenCV, MediaPipe
 
 ## Technical Skills
 
-<div align="left">
+<div align="center">
   <img src="https://skillicons.dev/icons?i=python,react,nodejs,express,javascript,mongodb,mysql,git,github&theme=dark" alt="Core technology matrix" />
 </div>
 
-<div align="left">
+<div align="center">
   <img src="https://img.shields.io/badge/Computer%20Vision-OpenCV-0ea5e9?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Landmark%20Detection-MediaPipe-22c55e?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Object%20Detection-YOLO-f97316?style=for-the-badge" />
@@ -54,8 +54,8 @@ data_python_tools: NumPy, Pandas, Matplotlib, OpenCV, MediaPipe
   <img width="49%" src="https://streak-stats.demolab.com?user=proxy-cmd&theme=tokyonight&hide_border=true" />
 </p>
 
-<p>
-  <img width="100%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=proxy-cmd&layout=compact&theme=tokyonight&hide_border=true" />
+<p align="center">
+  <img width="78%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=proxy-cmd&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
 
 <p align="center">
@@ -74,7 +74,7 @@ data_python_tools: NumPy, Pandas, Matplotlib, OpenCV, MediaPipe
 
 ## Contact
 
-<p align="left">
+<p align="center">
   <a href="https://github.com/proxy-cmd"><img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
   <a href="mailto:us094836@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://www.threads.net/@proxy.vx_"><img src="https://img.shields.io/badge/Threads-Follow-000000?style=for-the-badge&logo=threads&logoColor=white" /></a>
