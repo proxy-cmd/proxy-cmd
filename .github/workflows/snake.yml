@@ -15,6 +15,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
       - name: Generate pacman animation
         uses: abozanona/pacman-contribution-graph@main
         with:
@@ -28,27 +33,22 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Generate detailed metrics
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          user: proxy-cmd
-          filename: github-metrics.svg
-          template: classic
-          base: header, activity, repositories, metadata
-          config_timezone: Asia/Kolkata
-          plugin_lines: yes
-          plugin_languages: yes
-          plugin_languages_sections: most-used
-          plugin_languages_details: bytes-size, percentage
-          plugin_languages_limit: 8
-
-      - name: Move metrics into dist
+      - name: Generate lines changed card
         run: |
           mkdir -p dist
-          if [ -f github-metrics.svg ]; then
-            mv github-metrics.svg dist/github-metrics.svg
-          fi
+          ADDED=$(git log --pretty=tformat: --numstat | awk '{if ($1 ~ /^[0-9]+$/) add += $1} END {print add+0}')
+          DELETED=$(git log --pretty=tformat: --numstat | awk '{if ($2 ~ /^[0-9]+$/) del += $2} END {print del+0}')
+          CHANGED=$((ADDED + DELETED))
+          cat > dist/lines-changed.svg <<EOF
+          <svg width="495" height="150" viewBox="0 0 495 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Lines changed card">
+            <rect width="495" height="150" rx="10" fill="#0d1117"/>
+            <rect x="1" y="1" width="493" height="148" rx="9" fill="none" stroke="#30363d"/>
+            <text x="24" y="38" fill="#58a6ff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="600">Code Change Stats</text>
+            <text x="24" y="72" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="16">Total Lines Changed (This Repo)</text>
+            <text x="24" y="118" fill="#3fb950" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">${CHANGED}</text>
+            <text x="210" y="118" fill="#58a6ff" font-family="Segoe UI, Arial, sans-serif" font-size="16">(+${ADDED} / -${DELETED})</text>
+          </svg>
+          EOF
 
       - name: Deploy to output branch
         uses: crazy-max/ghaction-github-pages@v4
