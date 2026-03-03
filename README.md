@@ -4,13 +4,26 @@
 <tr>
 <td valign="top" width="56%">
 
+<table width="100%" height="100%">
+<tr>
+<td valign="top">
+
 <p align="left">
-  <img width="100%" src="https://github-stats-alpha.vercel.app/api?username=proxy-cmd&cc=0d1117&tc=58a6ff&ic=58a6ff&bc=0000" alt="Detailed GitHub statistics" />
+  <img width="700" src="https://github-stats-alpha.vercel.app/api?username=proxy-cmd&cc=0d1117&tc=58a6ff&ic=58a6ff&bc=0000" alt="Detailed GitHub statistics" />
 </p>
+
+</td>
+</tr>
+<tr>
+<td valign="bottom" align="right">
 
 <p align="right">
   <img src="https://img.shields.io/badge/Profile%20Views-256-0e75b6?style=for-the-badge&logo=github&logoColor=white" />
 </p>
+
+</td>
+</tr>
+</table>
 
 </td>
 <td valign="top" width="44%" align="right">
