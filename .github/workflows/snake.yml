@@ -1,12 +1,12 @@
-name: Generate Contribution Snake
+name: Generate Profile Animations
 
 on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
   push:
-     branches:
-         - "**"
+    branches:
+      - main
 
 permissions:
   contents: write
@@ -22,6 +22,11 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Generate pacman animation
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: proxy-cmd
 
       - name: Deploy to output branch
         uses: crazy-max/ghaction-github-pages@v4

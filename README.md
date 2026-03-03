@@ -1,15 +1,17 @@
-﻿# Ujjwal Sharma
+﻿<div align="center">
+  <img src="./.github/assets/neural-dock.svg" width="100%" alt="Animated neural dock" />
 
-`AI | ML Student | Data Science Enthusiast`  
-<img src="https://img.shields.io/badge/Profile%20Views-256-0e75b6?style=flat-square&logo=github&logoColor=white" /> <img src="https://img.shields.io/github/followers/proxy-cmd?label=Followers&style=flat-square&color=0891b2" /> <img src="https://img.shields.io/badge/Focus-AI%20%26%20ML-00bcd4?style=flat-square" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=20&duration=2600&pause=700&color=00E5FF&center=true&vCenter=true&width=880&lines=AI+%7C+ML+Student+%7C+Data+Science+Enthusiast;Computer+Vision+%2B+Practical+ML;Building+Data-Driven+Systems+End-to-End" alt="Typing animation" />
 
----
+  <br/>
+  <img src="https://img.shields.io/badge/Profile%20Views-256-0e75b6?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/github/followers/proxy-cmd?label=Followers&style=for-the-badge&color=0891b2" />
+  <img src="https://img.shields.io/badge/Focus-AI%20%26%20ML-00bcd4?style=for-the-badge" />
+</div>
 
-<table>
-<tr>
-<td width="54%" valign="top">
+## Ujjwal Sharma
 
-### Dossier
+## Operator Profile
 
 ```yaml
 name: Ujjwal
@@ -19,44 +21,23 @@ primary_focus: AI, Machine Learning, and Data Science using Python
 data_python_tools: NumPy, Pandas, Matplotlib, OpenCV, MediaPipe
 ```
 
-### Build Signature
+## Build Signature
 
 - Build for correctness first, then iterate on structure, performance, and clarity.
 - Keep code clean and simple enough to explain in plain language.
 - Learn by shipping real projects, breaking things, debugging, and improving.
 
-### Stack Surface
+## Stack Surface
 
 <div align="left">
   <img src="https://skillicons.dev/icons?i=python,react,nodejs,express,javascript,mongodb,mysql,git,github&theme=dark" alt="Core technology matrix" />
 </div>
 
 <div align="left">
-  <img src="https://img.shields.io/badge/Computer%20Vision-OpenCV-0ea5e9?style=flat-square" />
-  <img src="https://img.shields.io/badge/Landmark%20Detection-MediaPipe-22c55e?style=flat-square" />
-  <img src="https://img.shields.io/badge/Object%20Detection-YOLO-f97316?style=flat-square" />
+  <img src="https://img.shields.io/badge/Computer%20Vision-OpenCV-0ea5e9?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Landmark%20Detection-MediaPipe-22c55e?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Object%20Detection-YOLO-f97316?style=for-the-badge" />
 </div>
-
-</td>
-<td width="46%" valign="top">
-
-### Live Signals
-
-<img width="100%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=proxy-cmd&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
-
-<img width="100%" src="https://streak-stats.demolab.com?user=proxy-cmd&theme=tokyonight&hide_border=true" />
-
-<img width="100%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=proxy-cmd&layout=compact&theme=tokyonight&hide_border=true" />
-
-### Status Board
-
-- Active Focus: AI, ML, Data Science
-- Current Track: Computer Vision + Practical ML
-- Workflow: Build -> Break -> Debug -> Improve
-
-</td>
-</tr>
-</table>
 
 ## Mission Pipeline
 
@@ -67,20 +48,40 @@ data_python_tools: NumPy, Pandas, Matplotlib, OpenCV, MediaPipe
 | Active | **University ERP Management System** | React, Node.js, MongoDB | Role-based ERP platform with authentication, dashboard modules, and structured backend APIs for academic workflow management. | Actively Developing |
 | Completed | **SportPulse - Multi-Sport Analytics Dashboard** | HTML, CSS, JavaScript | Interactive sports analytics dashboard with structured data visualization and responsive UI. | Completed |
 
-## Activity Map
+## Live Signals
+
+<p>
+  <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=proxy-cmd&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
+  <img width="49%" src="https://streak-stats.demolab.com?user=proxy-cmd&theme=tokyonight&hide_border=true" />
+</p>
+
+<p>
+  <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=proxy-cmd&layout=compact&theme=tokyonight&hide_border=true" />
+  <img width="49%" src="./.github/assets/ai-core.svg" alt="Animated AI core" />
+</p>
 
 <p align="center">
   <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=proxy-cmd&theme=tokyo-night&hide_border=true&area=true" />
 </p>
 
+## Daily Contribution Arcade
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/pacman-contribution-graph.svg">
+  <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/pacman-contribution-graph.svg">
+</picture>
+
 <details>
-<summary><strong>Contribution Snake</strong></summary>
+<summary><strong>Contribution Snake (Legacy)</strong></summary>
 
 <br/>
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake animation" />
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/github-contribution-grid-snake.svg">
+  <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/github-contribution-grid-snake.svg">
+</picture>
 
 </details>
 

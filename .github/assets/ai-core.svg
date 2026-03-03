@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <svg viewBox="0 0 1200 420" xmlns="http://www.w3.org/2000/svg">
 
 <defs>
@@ -93,7 +93,7 @@
       font-size="26"
       fill="#00f0ff"
       letter-spacing="3">
-  PROXY AI CORE — SYSTEM ONLINE
+  PROXY AI CORE - SYSTEM ONLINE
   <animate attributeName="opacity"
            values="1;0.6;1"
            dur="2s"
@@ -101,3 +101,4 @@
 </text>
 
 </svg>
+
