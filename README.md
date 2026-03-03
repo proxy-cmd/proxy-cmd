@@ -1,18 +1,10 @@
-﻿<img align="right" width="320" src="https://media1.tenor.com/m/y-Z6sLQbm2kAAAAd/umaru-kawaii.gif" alt="Umaru typing gif" />
-<img align="right" width="320" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/lines-changed.svg?v=allrepos-v4" alt="Total lines of code changed" />
-<img align="right" width="320" src="https://github-stats-alpha.vercel.app/api?username=proxy-cmd&cc=0d1117&tc=58a6ff&ic=58a6ff&bc=0000" alt="Detailed GitHub statistics" />
+﻿<img align="right" width="360" src="./.github/assets/umaru-typing.gif" alt="Umaru typing gif" />
 
 ## Ujjwal Sharma
 
-## About Me
-
-```yaml
-Name: Ujjwal Sharma
-Course: Bachelor's in Computer Applications (AI & ML Specialization)
-Spoken Languages: Hindi (C2) | English (C1) | Japanese (A2 - CEFR)
-Primary Focus: AI, Machine Learning, and Data Science using Python
-Tools: NumPy, Pandas, Matplotlib, OpenCV, MediaPipe
-```
+<p align="left">
+  <img width="380" src="https://github-stats-alpha.vercel.app/api?username=proxy-cmd&cc=0d1117&tc=58a6ff&ic=58a6ff&bc=0000" alt="Detailed GitHub statistics" />
+</p>
 
 <p align="left">
   <img src="https://img.shields.io/badge/Profile%20Views-256-0e75b6?style=for-the-badge&logo=github&logoColor=white" />
@@ -20,10 +12,18 @@ Tools: NumPy, Pandas, Matplotlib, OpenCV, MediaPipe
   <img src="https://img.shields.io/badge/Focus-AI%20%26%20ML-00bcd4?style=for-the-badge" />
 </p>
 
+<img align="right" width="360" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/lines-changed.svg?v=allrepos-v6" alt="Total lines of code changed." />
+
 <br clear="right"/>
 
-## How I Work
+## About Me
 
+- Bachelor's in Computer Applications (AI & ML Specialization)
+- Hindi (C2) | English (C1) | Japanese (A2 - CEFR)
+- AI, Machine Learning, and Data Science using Python
+- NumPy, Pandas, Matplotlib, OpenCV, MediaPipe
+
+## How I Work
 - I make things work first, then improve structure, performance, and clarity.
 - Keep code clean and simple enough to explain in plain language.
 - I learn by building real projects, fixing bugs, and improving step by step.
@@ -86,3 +86,7 @@ Tools: NumPy, Pandas, Matplotlib, OpenCV, MediaPipe
 </p>
 
 `Learning. Building. Improving.`
+
+
+
+
