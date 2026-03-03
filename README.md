@@ -1,12 +1,14 @@
-﻿<div align="center">
+﻿<div align="left">
   <img src="./.github/assets/neural-dock.svg" width="100%" alt="Animated neural dock" />
 
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=20&duration=2600&pause=700&color=00E5FF&center=true&vCenter=true&width=880&lines=AI+%7C+ML+Student+%7C+Data+Science+Enthusiast;Computer+Vision+%2B+Practical+ML;Building+Data-Driven+Systems+End-to-End" alt="Typing animation" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=20&duration=2600&pause=700&color=00E5FF&center=false&vCenter=true&width=880&lines=AI+%7C+ML+Student+%7C+Data+Science+Enthusiast;Computer+Vision+%2B+Practical+ML;Building+Data-Driven+Systems+End-to-End" alt="Typing animation" />
 
   <br/>
-  <img src="https://img.shields.io/badge/Profile%20Views-256-0e75b6?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/github/followers/proxy-cmd?label=Followers&style=for-the-badge&color=0891b2" />
-  <img src="https://img.shields.io/badge/Focus-AI%20%26%20ML-00bcd4?style=for-the-badge" />
+  <p align="left">
+    <img src="https://img.shields.io/badge/Profile%20Views-256-0e75b6?style=for-the-badge&logo=github&logoColor=white" />
+    <img src="https://img.shields.io/github/followers/proxy-cmd?label=Followers&style=for-the-badge&color=0891b2" />
+    <img src="https://img.shields.io/badge/Focus-AI%20%26%20ML-00bcd4?style=for-the-badge" />
+  </p>
 </div>
 
 ## Ujjwal Sharma
@@ -47,6 +49,10 @@ data_python_tools: NumPy, Pandas, Matplotlib, OpenCV, MediaPipe
 | Active | **SignifyAI - Hand Sign to Speech System** | Python, OpenCV, MediaPipe, Text-to-Speech | Real-time computer vision system that processes live webcam input, detects 21 hand landmarks per frame using MediaPipe, and converts recognized gestures into spoken output. | Actively Developing |
 | Active | **University ERP Management System** | React, Node.js, MongoDB | Role-based ERP platform with authentication, dashboard modules, and structured backend APIs for academic workflow management. | Actively Developing |
 | Completed | **SportPulse - Multi-Sport Analytics Dashboard** | HTML, CSS, JavaScript | Interactive sports analytics dashboard with structured data visualization and responsive UI. | Completed |
+
+## Project Radar
+
+<img src="./.github/assets/project-radar.svg" width="100%" alt="Animated project radar" />
 
 ## GitHub Activity
 
