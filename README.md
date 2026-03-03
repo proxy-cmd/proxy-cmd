@@ -5,13 +5,11 @@
 <td valign="top" width="56%">
 
 <p align="left">
-  <img width="380" src="https://github-stats-alpha.vercel.app/api?username=proxy-cmd&cc=0d1117&tc=58a6ff&ic=58a6ff&bc=0000" alt="Detailed GitHub statistics" />
+  <img width="100%" src="https://github-stats-alpha.vercel.app/api?username=proxy-cmd&cc=0d1117&tc=58a6ff&ic=58a6ff&bc=0000" alt="Detailed GitHub statistics" />
 </p>
 
-<p align="left">
+<p align="right">
   <img src="https://img.shields.io/badge/Profile%20Views-256-0e75b6?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/github/followers/proxy-cmd?label=Followers&style=for-the-badge&color=0891b2" />
-  <img src="https://img.shields.io/badge/Focus-AI%20%26%20ML-00bcd4?style=for-the-badge" />
 </p>
 
 </td>
