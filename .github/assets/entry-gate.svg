@@ -9,6 +9,15 @@
       <stop offset="50%" stop-color="#00d9ff" stop-opacity="0.55"/>
       <stop offset="100%" stop-color="#00d9ff" stop-opacity="0"/>
     </linearGradient>
+    <clipPath id="typeClip">
+      <rect x="42" y="10" width="0" height="36">
+        <animate attributeName="width"
+          values="0;0;18;36;52;70;88;106;124;142;158;158;0"
+          keyTimes="0;0.08;0.14;0.2;0.26;0.32;0.38;0.44;0.5;0.56;0.62;0.86;1"
+          dur="4.2s"
+          repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
   </defs>
 
   <rect x="1" y="1" width="678" height="64" rx="10" fill="url(#bg)" stroke="#30363d"/>
@@ -19,6 +28,18 @@
   <circle cx="26" cy="33" r="5" fill="#3fb950">
     <animate attributeName="opacity" values="1;0.25;1" dur="1.2s" repeatCount="indefinite"/>
   </circle>
-  <text x="42" y="39" fill="#e6edf3" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">Ujjwal Sharma</text>
-  <text x="265" y="39" fill="#58a6ff" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600">AI | ML | Data Science</text>
+  <text x="42" y="39" fill="#e6edf3" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" clip-path="url(#typeClip)">&lt;Lets Code&gt;</text>
+  <text x="200" y="39" fill="#e6edf3" font-family="Consolas, Menlo, monospace" font-size="24" font-weight="700">I
+    <animate attributeName="x"
+      values="42;56;72;88;106;124;140;158;176;192;200;200;200"
+      keyTimes="0;0.08;0.14;0.2;0.26;0.32;0.38;0.44;0.5;0.56;0.62;0.86;1"
+      dur="4.2s"
+      repeatCount="indefinite"/>
+    <animate attributeName="opacity"
+      values="1;1;1;1;1;1;1;1;1;1;1;0;1;0;1;0;1"
+      keyTimes="0;0.5;0.58;0.64;0.7;0.76;0.82;0.88;0.9;0.92;0.94;0.96;0.97;0.98;0.99;0.995;1"
+      dur="4.2s"
+      repeatCount="indefinite"/>
+  </text>
+  <text x="275" y="39" fill="#58a6ff" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600">AI | ML | Data Science</text>
 </svg>
