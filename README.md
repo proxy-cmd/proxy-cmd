@@ -1,15 +1,18 @@
-﻿<table>
-<tr>
-<td width="58%" valign="top">
+﻿<img align="right" width="320" src="https://media1.tenor.com/m/y-Z6sLQbm2kAAAAd/umaru-kawaii.gif" alt="Umaru typing gif" />
+<img align="right" width="320" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/lines-changed.svg?v=allrepos-v4" alt="Total lines of code changed" />
+<img align="right" width="320" src="https://github-stats-alpha.vercel.app/api?username=proxy-cmd&cc=0d1117&tc=58a6ff&ic=58a6ff&bc=0000" alt="Detailed GitHub statistics" />
 
 ## Ujjwal Sharma
 
-**About Me**
+## About Me
 
-- Bachelor's in Computer Applications (AI & ML Specialization)
-- Hindi (C2) | English (C1) | Japanese (A2 - CEFR)
-- AI, Machine Learning, and Data Science using Python
-- NumPy, Pandas, Matplotlib, OpenCV, MediaPipe
+```yaml
+Name: Ujjwal Sharma
+Course: Bachelor's in Computer Applications (AI & ML Specialization)
+Spoken Languages: Hindi (C2) | English (C1) | Japanese (A2 - CEFR)
+Primary Focus: AI, Machine Learning, and Data Science using Python
+Tools: NumPy, Pandas, Matplotlib, OpenCV, MediaPipe
+```
 
 <p align="left">
   <img src="https://img.shields.io/badge/Profile%20Views-256-0e75b6?style=for-the-badge&logo=github&logoColor=white" />
@@ -17,12 +20,7 @@
   <img src="https://img.shields.io/badge/Focus-AI%20%26%20ML-00bcd4?style=for-the-badge" />
 </p>
 
-</td>
-<td width="42%" align="center" valign="middle">
-  <img src="https://media1.tenor.com/m/y-Z6sLQbm2kAAAAd/umaru-kawaii.gif" width="300" alt="Umaru typing gif" />
-</td>
-</tr>
-</table>
+<br clear="right"/>
 
 ## How I Work
 
@@ -59,12 +57,7 @@
 </p>
 
 <p align="center">
-  <img width="49%" src="https://github-stats-alpha.vercel.app/api?username=proxy-cmd&cc=0d1117&tc=58a6ff&ic=58a6ff&bc=0000" alt="Detailed GitHub statistics" />
-  <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=proxy-cmd&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages with percentage breakdown" />
-</p>
-
-<p align="center">
-  <img width="49%" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/lines-changed.svg?v=allrepos-v3" alt="Lines changed across repositories" />
+  <img width="62%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=proxy-cmd&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages with percentage breakdown" />
 </p>
 
 <p align="center">
@@ -93,7 +86,3 @@
 </p>
 
 `Learning. Building. Improving.`
-
-
-
-
