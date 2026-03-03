@@ -27,10 +27,19 @@
 </table>
 
 ## About Me
-- Bachelor's in Computer Applications (AI & ML Specialization)
-- Hindi (C2) | English (C1) | Japanese (A2 - CEFR)
-- AI, Machine Learning, and Data Science using Python
-- NumPy, Pandas, Matplotlib, OpenCV, MediaPipe
+
+```bash
+Name: Ujjwal
+Course: Bachelor’s in Computer Applications (AI & ML Specialization)
+
+Spoken Languages Known:
+Hindi (C2) | English (C1) | Japanese (A2 – CEFR)
+
+Primary Focus:
+AI, Machine Learning & Data Science using Python.
+
+Data & Python Tool:
+NumPy, Pandas, Matplotlib, OpenCV, MediaPipe
 
 ## How I Work
 - I make things work first, then improve structure, performance, and clarity.
@@ -94,7 +103,11 @@
   <img src="https://img.shields.io/badge/Discord-proxy.exe__-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
 </p>
 
+<div align="center">
+
 `Learning. Building. Improving.`
+
+</div>
 
 
 
