@@ -64,7 +64,7 @@ jobs:
             ADDED=$(git log --pretty=tformat: --numstat | awk '{if ($1 ~ /^[0-9]+$/) add += $1} END {print add+0}')
             DELETED=$(git log --pretty=tformat: --numstat | awk '{if ($2 ~ /^[0-9]+$/) del += $2} END {print del+0}')
             CHANGED=$((ADDED + DELETED))
-            write_svg "Code Change Stats" "Total Lines Changed (This Repo)" "$CHANGED" "$ADDED" "$DELETED"
+            write_svg "Total lines of code changed." "Total Lines Changed (This Repo)" "$CHANGED" "$ADDED" "$DELETED"
           }
 
           if [ -z "${ALL_REPOS_PAT:-}" ]; then
@@ -127,7 +127,7 @@ jobs:
 
           total_changed=$((total_added + total_deleted))
           subtitle="Total Lines Changed (All Repos: Public + Private)"
-          write_svg "Code Change Stats" "$subtitle" "$total_changed" "$total_added" "$total_deleted"
+          write_svg "Total lines of code changed." "$subtitle" "$total_changed" "$total_added" "$total_deleted"
 
       - name: Deploy to output branch
         uses: crazy-max/ghaction-github-pages@v4
