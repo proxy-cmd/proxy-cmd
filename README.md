@@ -62,7 +62,7 @@ data_python_tools: NumPy, Pandas, Matplotlib, OpenCV, MediaPipe
 </p>
 
 <p align="center">
-  <img width="49%" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/lines-changed.svg" alt="Lines changed in this repository" />
+  <img width="49%" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/lines-changed.svg" alt="Lines changed across repositories" />
 </p>
 
 <p align="center">

@@ -34,21 +34,100 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
       - name: Generate lines changed card
+        env:
+          GH_USER: proxy-cmd
+          ALL_REPOS_PAT: ${{ secrets.ALL_REPOS_PAT }}
         run: |
+          set -euo pipefail
           mkdir -p dist
-          ADDED=$(git log --pretty=tformat: --numstat | awk '{if ($1 ~ /^[0-9]+$/) add += $1} END {print add+0}')
-          DELETED=$(git log --pretty=tformat: --numstat | awk '{if ($2 ~ /^[0-9]+$/) del += $2} END {print del+0}')
-          CHANGED=$((ADDED + DELETED))
-          cat > dist/lines-changed.svg <<EOF
+
+          write_svg() {
+            local title="$1"
+            local subtitle="$2"
+            local changed="$3"
+            local added="$4"
+            local deleted="$5"
+            cat > dist/lines-changed.svg <<EOF
           <svg width="495" height="150" viewBox="0 0 495 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Lines changed card">
             <rect width="495" height="150" rx="10" fill="#0d1117"/>
             <rect x="1" y="1" width="493" height="148" rx="9" fill="none" stroke="#30363d"/>
-            <text x="24" y="38" fill="#58a6ff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="600">Code Change Stats</text>
-            <text x="24" y="72" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="16">Total Lines Changed (This Repo)</text>
-            <text x="24" y="118" fill="#3fb950" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">${CHANGED}</text>
-            <text x="210" y="118" fill="#58a6ff" font-family="Segoe UI, Arial, sans-serif" font-size="16">(+${ADDED} / -${DELETED})</text>
+            <text x="24" y="38" fill="#58a6ff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="600">${title}</text>
+            <text x="24" y="72" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="16">${subtitle}</text>
+            <text x="24" y="118" fill="#3fb950" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">${changed}</text>
+            <text x="210" y="118" fill="#58a6ff" font-family="Segoe UI, Arial, sans-serif" font-size="16">(+${added} / -${deleted})</text>
           </svg>
           EOF
+          }
+
+          # Fallback: this repository only
+          fallback_repo_only() {
+            ADDED=$(git log --pretty=tformat: --numstat | awk '{if ($1 ~ /^[0-9]+$/) add += $1} END {print add+0}')
+            DELETED=$(git log --pretty=tformat: --numstat | awk '{if ($2 ~ /^[0-9]+$/) del += $2} END {print del+0}')
+            CHANGED=$((ADDED + DELETED))
+            write_svg "Code Change Stats" "Total Lines Changed (This Repo)" "$CHANGED" "$ADDED" "$DELETED"
+          }
+
+          if [ -z "${ALL_REPOS_PAT:-}" ]; then
+            echo "ALL_REPOS_PAT not set. Using repo-only stats."
+            fallback_repo_only
+            exit 0
+          fi
+
+          total_added=0
+          total_deleted=0
+          repo_count=0
+          page=1
+
+          while :; do
+            repos_json=$(curl -sS \
+              -H "Authorization: Bearer ${ALL_REPOS_PAT}" \
+              -H "Accept: application/vnd.github+json" \
+              "https://api.github.com/user/repos?visibility=all&affiliation=owner&per_page=100&page=${page}")
+
+            count=$(echo "$repos_json" | jq 'length')
+            if [ "$count" -eq 0 ]; then
+              break
+            fi
+
+            while IFS= read -r repo; do
+              [ -z "$repo" ] && continue
+              repo_count=$((repo_count + 1))
+
+              data=""
+              for attempt in 1 2 3 4 5 6; do
+                code_and_body=$(mktemp)
+                status=$(curl -sS -o "$code_and_body" -w "%{http_code}" \
+                  -H "Authorization: Bearer ${ALL_REPOS_PAT}" \
+                  -H "Accept: application/vnd.github+json" \
+                  "https://api.github.com/repos/${repo}/stats/contributors")
+
+                if [ "$status" = "202" ]; then
+                  rm -f "$code_and_body"
+                  sleep 2
+                  continue
+                fi
+
+                if [ "$status" = "200" ]; then
+                  data=$(cat "$code_and_body")
+                fi
+                rm -f "$code_and_body"
+                break
+              done
+
+              if [ -n "$data" ]; then
+                repo_added=$(echo "$data" | jq --arg u "$GH_USER" '[.[] | select(.author.login == $u) | .weeks[]? | .a] | add // 0')
+                repo_deleted=$(echo "$data" | jq --arg u "$GH_USER" '[.[] | select(.author.login == $u) | .weeks[]? | .d] | add // 0')
+                total_added=$((total_added + repo_added))
+                total_deleted=$((total_deleted + repo_deleted))
+              fi
+            done < <(echo "$repos_json" | jq -r '.[].full_name')
+
+            page=$((page + 1))
+          done
+
+          total_changed=$((total_added + total_deleted))
+          subtitle="Total Lines Changed (All Repos: Public + Private)"
+          write_svg "Code Change Stats" "$subtitle" "$total_changed" "$total_added" "$total_deleted"
 
       - name: Deploy to output branch
         uses: crazy-max/ghaction-github-pages@v4
