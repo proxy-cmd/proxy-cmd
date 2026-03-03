@@ -13,6 +13,10 @@
 
 ## Ujjwal Sharma
 
+## Hologram Card
+
+<img src="./.github/assets/hologram-card.svg" width="100%" alt="Animated hologram profile card" />
+
 ## About Me
 
 ```yaml
@@ -50,9 +54,9 @@ data_python_tools: NumPy, Pandas, Matplotlib, OpenCV, MediaPipe
 | Active | **University ERP Management System** | React, Node.js, MongoDB | Role-based ERP platform with authentication, dashboard modules, and structured backend APIs for academic workflow management. | Actively Developing |
 | Completed | **SportPulse - Multi-Sport Analytics Dashboard** | HTML, CSS, JavaScript | Interactive sports analytics dashboard with structured data visualization and responsive UI. | Completed |
 
-## Project Radar
+## Story Mode
 
-<img src="./.github/assets/project-radar.svg" width="100%" alt="Animated project radar" />
+<img src="./.github/assets/story-mode.svg" width="100%" alt="Animated project story timeline" />
 
 ## GitHub Activity
 
