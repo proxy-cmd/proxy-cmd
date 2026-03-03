@@ -5,13 +5,13 @@
 <td valign="top" width="60%">
 
 <p align="left">
-  <img width="100%" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/main/.github/assets/profile-signal.svg?v=1" alt="Profile signal board" />
+  <img width="100%" src="https://github-stats-alpha.vercel.app/api?username=proxy-cmd&cc=0d1117&tc=58a6ff&ic=58a6ff&bc=0000" alt="Detailed GitHub statistics" />
 </p>
 
 <br />
 
 <p align="left">
-  <img src="https://komarev.com/ghpvc/?username=proxy-cmd&label=LIVE+VIEWS&color=1f6feb&style=flat-square" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=proxy-cmd&label=PROFILE+VIEWS&color=1f6feb&style=for-the-badge" alt="Profile views" />
   <img src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/main/.github/assets/actively-building.svg?v=2" alt="Actively building" />
 </p>
 
@@ -109,7 +109,6 @@ NumPy, Pandas, Matplotlib, OpenCV, MediaPipe
 `Learning. Building. Improving.`
 
 </div>
-
 
 
 
