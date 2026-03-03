@@ -1,8 +1,7 @@
 ﻿<div align="center">
-  <img src="./.github/assets/neural-dock.svg" width="100%" height="180" alt="Animated neural dock" />
+  <img src="./.github/assets/neural-dock.svg" width="92%" alt="Animated neural dock" />
 
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=20&duration=2600&pause=700&color=00E5FF&center=true&vCenter=true&width=880&lines=AI+%7C+ML+Student+%7C+Data+Science+Enthusiast;Computer+Vision+%2B+Practical+ML;Building+Data-Driven+Systems+End-to-End" alt="Typing animation" />
-
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=19&duration=2600&pause=700&color=00E5FF&center=true&vCenter=true&width=760&lines=AI+%7C+ML+Student+%7C+Data+Science+Enthusiast;Computer+Vision+%2B+Practical+ML;Building+Data-Driven+Systems+End-to-End" alt="Typing animation" />
 
   <p align="center">
     <img src="https://img.shields.io/badge/Profile%20Views-256-0e75b6?style=for-the-badge&logo=github&logoColor=white" />
@@ -52,13 +51,14 @@ data_python_tools: NumPy, Pandas, Matplotlib, OpenCV, MediaPipe
 
 ## GitHub Activity
 
-<p>
+<p align="center">
   <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=proxy-cmd&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
   <img width="49%" src="https://streak-stats.demolab.com?user=proxy-cmd&theme=tokyonight&hide_border=true" />
 </p>
 
 <p align="center">
-  <img width="78%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=proxy-cmd&layout=compact&theme=tokyonight&hide_border=true" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=proxy-cmd&theme=github_dark" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=proxy-cmd&theme=github_dark" />
 </p>
 
 <p align="center">
@@ -87,4 +87,3 @@ data_python_tools: NumPy, Pandas, Matplotlib, OpenCV, MediaPipe
 </p>
 
 `Learning. Building. Improving.`
-
