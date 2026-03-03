@@ -33,7 +33,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           user: proxy-cmd
-          filename: dist/github-metrics.svg
+          filename: github-metrics.svg
           template: classic
           base: header, activity, repositories, metadata
           config_timezone: Asia/Kolkata
@@ -42,6 +42,13 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_details: bytes-size, percentage
           plugin_languages_limit: 8
+
+      - name: Move metrics into dist
+        run: |
+          mkdir -p dist
+          if [ -f github-metrics.svg ]; then
+            mv github-metrics.svg dist/github-metrics.svg
+          fi
 
       - name: Deploy to output branch
         uses: crazy-max/ghaction-github-pages@v4
