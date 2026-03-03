@@ -2,21 +2,28 @@
 
 <table>
 <tr>
-<td valign="top" width="60%">
+<td valign="top" width="62%">
 
 <p align="left">
-  <img width="100%" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/main/.github/assets/profile-signal.svg?v=4" alt="Profile signal board" />
+  <img width="100%" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/main/.github/assets/profile-signal.svg?v=5" alt="Profile signal board" />
 </p>
 
 <br />
 
-<p align="left">
+<table>
+<tr>
+<td>
   <img src="https://komarev.com/ghpvc/?username=proxy-cmd&label=PROFILE+VIEWS&color=1f6feb&style=for-the-badge" alt="Profile views" />
-  <img src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/main/.github/assets/actively-building.svg?v=2" alt="Actively building" />
-</p>
+</td>
+<td width="8"></td>
+<td>
+  <img src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/main/.github/assets/actively-building.svg?v=3" alt="Actively building" />
+</td>
+</tr>
+</table>
 
 </td>
-<td valign="top" width="40%" align="right">
+<td valign="top" width="38%" align="right">
 
 <img width="330" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/main/.github/assets/umaru-typing.gif?v=3" alt="Umaru typing gif" />
 <br /><br />
@@ -109,4 +116,3 @@ NumPy, Pandas, Matplotlib, OpenCV, MediaPipe
 `Learning. Building. Improving.`
 
 </div>
-
