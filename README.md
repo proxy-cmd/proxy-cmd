@@ -1,40 +1,20 @@
+<img align="right" width="330" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/main/.github/assets/umaru-typing.gif?v=2" alt="Umaru typing gif" />
+<br />
+<img align="right" width="330" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/lines-changed.svg?v=allrepos-v8" alt="Total lines of code changed." />
+
 ## Ujjwal Sharma
 
-<table>
-<tr>
-<td valign="top" width="56%">
-
-<table width="100%" height="100%">
-<tr>
-<td valign="top">
-
 <p align="left">
-  <img width="100%" src="https://github-stats-alpha.vercel.app/api?username=proxy-cmd&cc=0d1117&tc=58a6ff&ic=58a6ff&bc=0000" alt="Detailed GitHub statistics" />
+  <img width="440" src="https://github-stats-alpha.vercel.app/api?username=proxy-cmd&cc=0d1117&tc=58a6ff&ic=58a6ff&bc=0000" alt="Detailed GitHub statistics" />
 </p>
 
-</td>
-</tr>
-<tr>
-<td valign="bottom" align="right">
+<br /><br />
 
 <p align="right">
   <img src="https://img.shields.io/badge/Profile%20Views-256-0e75b6?style=for-the-badge&logo=github&logoColor=white" />
 </p>
 
-</td>
-</tr>
-</table>
-
-</td>
-<td valign="top" width="44%" align="right">
-
-<img width="340" src="./.github/assets/umaru-typing.gif" alt="Umaru typing gif" />
-<br /><br />
-<img width="340" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/lines-changed.svg?v=allrepos-v7" alt="Total lines of code changed." />
-
-</td>
-</tr>
-</table>
+<br clear="right"/>
 
 ## About Me
 - Bachelor's in Computer Applications (AI & ML Specialization)
@@ -105,6 +85,7 @@
 </p>
 
 `Learning. Building. Improving.`
+
 
 
 
