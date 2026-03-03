@@ -1,9 +1,6 @@
 ﻿<div align="left">
   <img src="./.github/assets/neural-dock.svg" width="100%" alt="Animated neural dock" />
 
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=20&duration=2600&pause=700&color=00E5FF&center=false&vCenter=true&width=880&lines=AI+%7C+ML+Student+%7C+Data+Science+Enthusiast;Computer+Vision+%2B+Practical+ML;Building+Data-Driven+Systems+End-to-End" alt="Typing animation" />
-
-  <br/>
   <p align="left">
     <img src="https://img.shields.io/badge/Profile%20Views-256-0e75b6?style=for-the-badge&logo=github&logoColor=white" />
     <img src="https://img.shields.io/github/followers/proxy-cmd?label=Followers&style=for-the-badge&color=0891b2" />
@@ -12,10 +9,6 @@
 </div>
 
 ## Ujjwal Sharma
-
-## Hologram Card
-
-<img src="./.github/assets/hologram-card.svg" width="100%" alt="Animated hologram profile card" />
 
 ## About Me
 
@@ -54,10 +47,6 @@ data_python_tools: NumPy, Pandas, Matplotlib, OpenCV, MediaPipe
 | Active | **University ERP Management System** | React, Node.js, MongoDB | Role-based ERP platform with authentication, dashboard modules, and structured backend APIs for academic workflow management. | Actively Developing |
 | Completed | **SportPulse - Multi-Sport Analytics Dashboard** | HTML, CSS, JavaScript | Interactive sports analytics dashboard with structured data visualization and responsive UI. | Completed |
 
-## Story Mode
-
-<img src="./.github/assets/story-mode.svg" width="100%" alt="Animated project story timeline" />
-
 ## GitHub Activity
 
 <p>
@@ -66,8 +55,7 @@ data_python_tools: NumPy, Pandas, Matplotlib, OpenCV, MediaPipe
 </p>
 
 <p>
-  <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=proxy-cmd&layout=compact&theme=tokyonight&hide_border=true" />
-  <img width="49%" src="./.github/assets/ai-core.svg" alt="Animated AI core" />
+  <img width="100%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=proxy-cmd&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
 
 <p align="center">
