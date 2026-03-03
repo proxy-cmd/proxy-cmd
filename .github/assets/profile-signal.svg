@@ -1,0 +1,46 @@
+<svg width="820" height="300" viewBox="0 0 820 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Profile signal board">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1320"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00d9ff"/>
+      <stop offset="100%" stop-color="#1f6feb"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="1" y="1" width="818" height="298" rx="14" fill="url(#bg)" stroke="#2b3440"/>
+  <rect x="1" y="1" width="818" height="48" rx="14" fill="#0f1828" stroke="#2b3440"/>
+  <text x="24" y="31" fill="#00d9ff" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="0.8">PROFILE SIGNAL BOARD</text>
+  <text x="636" y="31" fill="#7d8590" font-family="Segoe UI, Arial, sans-serif" font-size="12">LIVE SNAPSHOT</text>
+
+  <line x1="24" y1="86" x2="794" y2="86" stroke="url(#line)" stroke-width="1.2" opacity="0.45"/>
+
+  <circle cx="48" cy="122" r="5" fill="#3fb950">
+    <animate attributeName="opacity" values="1;0.25;1" dur="1.2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="66" y="127" fill="#3fb950" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">ONLINE</text>
+
+  <text x="24" y="164" fill="#e6edf3" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="700">Ujjwal Sharma</text>
+  <text x="24" y="198" fill="#58a6ff" font-family="Segoe UI, Arial, sans-serif" font-size="18">AI | ML Student | Data Science Enthusiast</text>
+  <text x="24" y="228" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="14">Build mode: shipping, debugging, improving</text>
+
+  <text x="470" y="124" fill="#58a6ff" font-family="Segoe UI, Arial, sans-serif" font-size="15">Total Repo</text>
+  <text x="715" y="124" fill="#e6edf3" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">4</text>
+
+  <text x="470" y="154" fill="#58a6ff" font-family="Segoe UI, Arial, sans-serif" font-size="15">Star Count</text>
+  <text x="715" y="154" fill="#e6edf3" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">4</text>
+
+  <text x="470" y="184" fill="#58a6ff" font-family="Segoe UI, Arial, sans-serif" font-size="15">Fork Count</text>
+  <text x="715" y="184" fill="#e6edf3" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">0</text>
+
+  <text x="470" y="214" fill="#58a6ff" font-family="Segoe UI, Arial, sans-serif" font-size="15">Contributions</text>
+  <text x="715" y="214" fill="#e6edf3" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">453</text>
+
+  <text x="470" y="244" fill="#58a6ff" font-family="Segoe UI, Arial, sans-serif" font-size="15">Total Issues</text>
+  <text x="715" y="244" fill="#e6edf3" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">0</text>
+
+  <text x="470" y="274" fill="#58a6ff" font-family="Segoe UI, Arial, sans-serif" font-size="15">Closed Issues</text>
+  <text x="715" y="274" fill="#e6edf3" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">0</text>
+</svg>

@@ -5,7 +5,7 @@
 <td valign="top" width="60%">
 
 <p align="left">
-  <img width="100%" src="https://github-stats-alpha.vercel.app/api?username=proxy-cmd&cc=0d1117&tc=58a6ff&ic=58a6ff&bc=0000" alt="Detailed GitHub statistics" />
+  <img width="100%" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/main/.github/assets/profile-signal.svg?v=3" alt="Profile signal board" />
 </p>
 
 <br />
@@ -109,6 +109,5 @@ NumPy, Pandas, Matplotlib, OpenCV, MediaPipe
 `Learning. Building. Improving.`
 
 </div>
-
 
 
