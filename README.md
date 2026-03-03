@@ -57,8 +57,8 @@ data_python_tools: NumPy, Pandas, Matplotlib, OpenCV, MediaPipe
 </p>
 
 <p align="center">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=proxy-cmd&theme=github_dark" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=proxy-cmd&theme=github_dark" />
+  <img width="49%" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/github-metrics.svg" alt="Detailed GitHub metrics including lines changed" />
+  <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=proxy-cmd&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages with percentage breakdown" />
 </p>
 
 <p align="center">
