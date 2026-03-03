@@ -39,16 +39,18 @@
 
 ```yaml
 Name: Ujjwal
-Course: Bachelor's in Computer Applications (AI & ML Specialization)
-
-Spoken Languages Known:
-Hindi (C2) | English (C1) | Japanese (A2 - CEFR)
+Education: Bachelor's in Computer Applications (AI & ML Specialization)
 
 Primary Focus:
-AI, Machine Learning & Data Science using Python.
+AI, Machine Learning & Data Science with 
+strong emphasis on Python-based development.
 
-Data & Python Tool:
-NumPy, Pandas, Matplotlib, OpenCV, MediaPipe
+Core Stack:
+Python | NumPy | Pandas | Matplotlib
+OpenCV | MediaPipe
+
+Interests:
+Artificial Intelligence, Machine Learning, and Data Science
 ```
 
 ## How I Work
