@@ -82,16 +82,16 @@ Artificial Intelligence, Machine Learning, and Data Science
 ## GitHub Activity
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=proxy-cmd&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
-  <img width="49%" src="https://streak-stats.demolab.com?user=proxy-cmd&theme=tokyonight&hide_border=true" />
+  <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=proxy-cmd&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&v=20260304a" />
+  <img width="49%" src="https://streak-stats.demolab.com?user=proxy-cmd&theme=tokyonight&hide_border=true&v=20260304a" />
 </p>
 
 <p align="center">
-  <img width="62%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=proxy-cmd&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&hide=html,css&size_weight=0.35&count_weight=0.65" alt="Top languages with percentage breakdown" />
+  <img width="62%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=proxy-cmd&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&hide=html,css&size_weight=0.35&count_weight=0.65&v=20260304a" alt="Top languages with percentage breakdown" />
 </p>
 
 <p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=proxy-cmd&theme=tokyo-night&hide_border=true&area=true" />
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=proxy-cmd&theme=tokyo-night&hide_border=true&area=true&v=20260304a" />
 </p>
 
 ## Daily Contributions
