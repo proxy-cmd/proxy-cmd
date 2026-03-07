@@ -1,0 +1,8 @@
+<svg width="495" height="150" viewBox="0 0 495 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Lines changed card">
+  <rect width="495" height="150" rx="10" fill="#0d1117"/>
+  <rect x="1" y="1" width="493" height="148" rx="9" fill="none" stroke="#30363d"/>
+  <text x="24" y="38" fill="#58a6ff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="600">Code Change Stats</text>
+  <text x="24" y="72" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="16">Total Lines Of Code Changed (Public + Private Repo)</text>
+  <text x="24" y="118" fill="#3fb950" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">238770</text>
+  <text x="210" y="118" fill="#58a6ff" font-family="Segoe UI, Arial, sans-serif" font-size="16">(+199904 / -38866)</text>
+</svg>
