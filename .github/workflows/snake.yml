@@ -205,7 +205,7 @@ jobs:
             fi
 
             repo_count=$((repo_count + count))
-            page_stars=$(echo "$repos_json" | jq '[.[].stargazers_count] | add // 0')
+            page_stars=$(echo "$repos_json" | jq '[.[] | select(.private == false) | .stargazers_count] | add // 0')
             page_forks=$(echo "$repos_json" | jq '[.[].forks_count] | add // 0')
             star_count=$((star_count + page_stars))
             fork_count=$((fork_count + page_forks))
