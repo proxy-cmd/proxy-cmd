@@ -162,6 +162,126 @@ jobs:
           subtitle="Total Lines Of Code Changed (Public + Private Repo)"
           write_svg "Code Change Stats" "$subtitle" "$total_changed" "$total_added" "$total_deleted"
 
+      - name: Generate profile signal card
+        env:
+          GH_USER: proxy-cmd
+          ALL_REPOS_PAT: ${{ secrets.ALL_REPOS_PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          mkdir -p dist
+
+          auth_token="${ALL_REPOS_PAT:-${GITHUB_TOKEN:-}}"
+
+          api_get() {
+            local url="$1"
+            if [ -n "${auth_token:-}" ]; then
+              curl -fsSL \
+                -H "Authorization: Bearer ${auth_token}" \
+                -H "Accept: application/vnd.github+json" \
+                "$url"
+            else
+              curl -fsSL \
+                -H "Accept: application/vnd.github+json" \
+                "$url"
+            fi
+          }
+
+          repo_endpoint="https://api.github.com/users/${GH_USER}/repos?per_page=100&page="
+          if [ -n "${ALL_REPOS_PAT:-}" ]; then
+            repo_endpoint="https://api.github.com/user/repos?visibility=all&affiliation=owner&per_page=100&page="
+          fi
+
+          repo_count=0
+          star_count=0
+          fork_count=0
+          page=1
+
+          while :; do
+            repos_json=$(api_get "${repo_endpoint}${page}")
+            count=$(echo "$repos_json" | jq 'length')
+            if [ "$count" -eq 0 ]; then
+              break
+            fi
+
+            repo_count=$((repo_count + count))
+            page_stars=$(echo "$repos_json" | jq '[.[].stargazers_count] | add // 0')
+            page_forks=$(echo "$repos_json" | jq '[.[].forks_count] | add // 0')
+            star_count=$((star_count + page_stars))
+            fork_count=$((fork_count + page_forks))
+            page=$((page + 1))
+          done
+
+          if [ -n "${ALL_REPOS_PAT:-}" ]; then
+            user_scope="user:${GH_USER}"
+          else
+            user_scope="user:${GH_USER}+is:public"
+          fi
+
+          total_issues=$(api_get "https://api.github.com/search/issues?q=author:${GH_USER}+type:issue+${user_scope}" | jq '.total_count // 0')
+          closed_issues=$(api_get "https://api.github.com/search/issues?q=author:${GH_USER}+type:issue+state:closed+${user_scope}" | jq '.total_count // 0')
+
+          streak_svg=$(curl -fsSL "https://streak-stats.demolab.com?user=${GH_USER}&theme=tokyonight&hide_border=true&v=$(date +%s)")
+          contributions=$(printf "%s" "$streak_svg" | perl -0ne 'print "$1\n" if /<!-- Total Contributions big number -->.*?<text[^>]*>\s*([0-9]+)\s*<\/text>/s')
+          if [ -z "${contributions:-}" ]; then
+            contributions=0
+          fi
+
+          cat > dist/profile-signal.svg <<EOF
+          <svg width="900" height="400" viewBox="0 0 900 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Profile signal board">
+            <defs>
+              <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#0b1320"/>
+                <stop offset="100%" stop-color="#0d1117"/>
+              </linearGradient>
+              <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0%" stop-color="#00d9ff"/>
+                <stop offset="100%" stop-color="#1f6feb"/>
+              </linearGradient>
+            </defs>
+
+            <rect x="1" y="1" width="898" height="398" rx="14" fill="url(#bg)" stroke="#2b3440"/>
+            <rect x="1" y="1" width="898" height="58" rx="14" fill="#0f1828" stroke="#2b3440"/>
+            <text x="26" y="37" fill="#00d9ff" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="0.8">PROFILE SIGNAL BOARD</text>
+            <text x="696" y="37" fill="#7d8590" font-family="Segoe UI, Arial, sans-serif" font-size="12">LIVE SNAPSHOT</text>
+
+            <line x1="26" y1="106" x2="874" y2="106" stroke="url(#line)" stroke-width="1.2" opacity="0.45"/>
+            <line x1="530" y1="120" x2="530" y2="368" stroke="#2b3440" stroke-width="1"/>
+
+            <circle cx="54" cy="142" r="6" fill="#3fb950">
+              <animate attributeName="opacity" values="1;0.25;1" dur="1.2s" repeatCount="indefinite"/>
+            </circle>
+            <text x="74" y="147" fill="#3fb950" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">ONLINE</text>
+
+            <text x="36" y="218" fill="#e6edf3" font-family="Segoe UI, Arial, sans-serif" font-size="56" font-weight="700">Ujjwal Sharma</text>
+            <text x="36" y="258" fill="#58a6ff" font-family="Segoe UI, Arial, sans-serif" font-size="24">AI | ML Student | Data Science Enthusiast</text>
+            <text x="36" y="294" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="17">Build mode: shipping, debugging, improving</text>
+
+            <text x="562" y="150" fill="#58a6ff" font-family="Segoe UI, Arial, sans-serif" font-size="21">Total Repo</text>
+            <text x="850" y="150" text-anchor="end" fill="#e6edf3" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">${repo_count}</text>
+            <line x1="552" y1="160" x2="860" y2="160" stroke="#2b3440" stroke-width="1" opacity="0.45"/>
+
+            <text x="562" y="192" fill="#58a6ff" font-family="Segoe UI, Arial, sans-serif" font-size="21">Star Count</text>
+            <text x="850" y="192" text-anchor="end" fill="#e6edf3" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">${star_count}</text>
+            <line x1="552" y1="202" x2="860" y2="202" stroke="#2b3440" stroke-width="1" opacity="0.45"/>
+
+            <text x="562" y="234" fill="#58a6ff" font-family="Segoe UI, Arial, sans-serif" font-size="21">Fork Count</text>
+            <text x="850" y="234" text-anchor="end" fill="#e6edf3" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">${fork_count}</text>
+            <line x1="552" y1="244" x2="860" y2="244" stroke="#2b3440" stroke-width="1" opacity="0.45"/>
+
+            <text x="562" y="276" fill="#58a6ff" font-family="Segoe UI, Arial, sans-serif" font-size="21">Contributions</text>
+            <text x="850" y="276" text-anchor="end" fill="#e6edf3" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">${contributions}</text>
+            <line x1="552" y1="286" x2="860" y2="286" stroke="#2b3440" stroke-width="1" opacity="0.45"/>
+
+            <text x="562" y="318" fill="#58a6ff" font-family="Segoe UI, Arial, sans-serif" font-size="21">Total Issues</text>
+            <text x="850" y="318" text-anchor="end" fill="#e6edf3" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">${total_issues}</text>
+            <line x1="552" y1="328" x2="860" y2="328" stroke="#2b3440" stroke-width="1" opacity="0.45"/>
+
+            <text x="562" y="360" fill="#58a6ff" font-family="Segoe UI, Arial, sans-serif" font-size="21">Closed Issues</text>
+            <text x="850" y="360" text-anchor="end" fill="#e6edf3" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">${closed_issues}</text>
+          </svg>
+          EOF
+
       - name: Deploy to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
