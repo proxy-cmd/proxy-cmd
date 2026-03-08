@@ -88,7 +88,7 @@ Artificial Intelligence, Machine Learning, and Data Science
 
 <div align="left">
   <img width="58%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=proxy-cmd&layout=compact&card_width=520&theme=tokyonight&hide_border=true&langs_count=6&hide=html,css&size_weight=0.35&count_weight=0.65&v=20260308d" alt="Language mix" />
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img height="145" src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" alt="Animated developer gif" />
 </div>
 
