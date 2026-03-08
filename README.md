@@ -86,9 +86,16 @@ Artificial Intelligence, Machine Learning, and Data Science
   <img width="49%" src="https://streak-stats.demolab.com?user=proxy-cmd&theme=tokyonight&hide_border=true&v=20260304a" />
 </p>
 
-<p align="left">
-  <img width="52%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=proxy-cmd&layout=compact&card_width=420&theme=tokyonight&hide_border=true&langs_count=6&hide=html,css&size_weight=0.35&count_weight=0.65&v=20260308c" alt="Language mix" />
-</p>
+<table width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td width="52%" valign="top" align="left">
+  <img width="100%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=proxy-cmd&layout=compact&card_width=420&theme=tokyonight&hide_border=true&langs_count=6&hide=html,css&size_weight=0.35&count_weight=0.65&v=20260308c" alt="Language mix" />
+</td>
+<td width="48%" valign="top" align="right">
+  <img width="86%" src="https://user-images.githubusercontent.com/74038190/213866269-5d00981c-7c98-46d7-8a8e-16f462f15227.gif" alt="Animated developer gif" />
+</td>
+</tr>
+</table>
 
 ## Daily Contributions
 
