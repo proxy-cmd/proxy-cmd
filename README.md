@@ -87,7 +87,7 @@ Artificial Intelligence, Machine Learning, and Data Science
 </p>
 
 <p align="center">
-  <img width="34%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=proxy-cmd&layout=donut&theme=tokyonight&hide_border=true&langs_count=6&hide=html,css&size_weight=0.35&count_weight=0.65&v=20260308a" alt="Language mix donut chart" />
+  <img width="48%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=proxy-cmd&layout=compact&card_width=420&theme=tokyonight&hide_border=true&langs_count=6&hide=html,css&size_weight=0.35&count_weight=0.65&v=20260308b" alt="Language mix" />
 </p>
 
 ## Daily Contributions
