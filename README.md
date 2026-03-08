@@ -86,8 +86,8 @@ Artificial Intelligence, Machine Learning, and Data Science
   <img width="49%" src="https://streak-stats.demolab.com?user=proxy-cmd&theme=tokyonight&hide_border=true&v=20260304a" />
 </p>
 
-<p align="center">
-  <img width="48%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=proxy-cmd&layout=compact&card_width=420&theme=tokyonight&hide_border=true&langs_count=6&hide=html,css&size_weight=0.35&count_weight=0.65&v=20260308b" alt="Language mix" />
+<p align="left">
+  <img width="52%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=proxy-cmd&layout=compact&card_width=420&theme=tokyonight&hide_border=true&langs_count=6&hide=html,css&size_weight=0.35&count_weight=0.65&v=20260308c" alt="Language mix" />
 </p>
 
 ## Daily Contributions
