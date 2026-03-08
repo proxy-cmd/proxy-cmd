@@ -86,11 +86,16 @@ Artificial Intelligence, Machine Learning, and Data Science
   <img width="49%" src="https://streak-stats.demolab.com?user=proxy-cmd&theme=tokyonight&hide_border=true&v=20260304a" />
 </p>
 
-<p align="left">
-  <img width="52%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=proxy-cmd&layout=compact&card_width=420&theme=tokyonight&hide_border=true&langs_count=6&hide=html,css&size_weight=0.35&count_weight=0.65&v=20260308c" alt="Language mix" />
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img width="18%" align="right" src="https://user-images.githubusercontent.com/74038190/212281775-b468df30-4edc-4bf8-a4ee-f52e1aaddc86.gif" alt="Animated developer gif" />
-</p>
+<table width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td width="56%" valign="middle" align="left">
+  <img width="100%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=proxy-cmd&layout=compact&card_width=420&theme=tokyonight&hide_border=true&langs_count=6&hide=html,css&size_weight=0.35&count_weight=0.65&v=20260308c" alt="Language mix" />
+</td>
+<td width="44%" valign="middle" align="center">
+  <img height="145" src="https://user-images.githubusercontent.com/74038190/212281775-b468df30-4edc-4bf8-a4ee-f52e1aaddc86.gif" alt="Animated developer gif" />
+</td>
+</tr>
+</table>
 
 ## Daily Contributions
 
