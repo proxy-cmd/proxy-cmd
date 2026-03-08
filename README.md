@@ -61,7 +61,7 @@ Artificial Intelligence, Machine Learning, and Data Science
 ## Technical Skills
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,react,nodejs,express,javascript,mongodb,mysql,git,github&theme=dark" alt="Core technology matrix" />
+  <img src="https://skillicons.dev/icons?i=python,javascript,mongodb,mysql,git,github&theme=dark" alt="Core technology matrix" />
 </div>
 
 <div align="center">
@@ -74,7 +74,7 @@ Artificial Intelligence, Machine Learning, and Data Science
 
 | Track | Project | Tech Stack | Description | Status |
 |---|---|---|---|---|
-| Upcoming | **VisioAI - Real-Time Object Detection System** | Python, OpenCV, YOLO | Real-time object detection system for live video streams using deep learning-based detection models. | Planned |
+| Active | **VisioAI - Real-Time Object Detection System** | Python, OpenCV, YOLO | Real-time object detection system for live video streams using deep learning-based detection models. | Ongoing |
 | Active | **SignifyAI - Hand Sign to Speech System** | Python, OpenCV, MediaPipe, Text-to-Speech | Real-time computer vision system that processes live webcam input, detects 21 hand landmarks per frame using MediaPipe, and converts recognized gestures into spoken output. | Actively Developing |
 | Active | **University ERP Management System** | React, Node.js, MongoDB | Role-based ERP platform with authentication, dashboard modules, and structured backend APIs for academic workflow management. | Actively Developing |
 | Completed | **SportPulse - Multi-Sport Analytics Dashboard** | HTML, CSS, JavaScript | Interactive sports analytics dashboard with structured data visualization and responsive UI. | Completed |
@@ -109,9 +109,6 @@ Artificial Intelligence, Machine Learning, and Data Science
 <p align="center">
   <a href="https://github.com/proxy-cmd"><img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
   <a href="mailto:us094836@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://www.threads.net/@proxy.vx_"><img src="https://img.shields.io/badge/Threads-Follow-000000?style=for-the-badge&logo=threads&logoColor=white" /></a>
-  <a href="https://www.instagram.com/proxy.vx_"><img src="https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
-  <a href="https://discord.gg/h8xta2EqZG"><img src="https://img.shields.io/badge/Discord-Join_Community-5865F2?style=for-the-badge&logo=discord&logoColor=white" /></a>
   <img src="https://img.shields.io/badge/Discord-proxy.exe__-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
 </p>
 
