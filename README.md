@@ -14,7 +14,7 @@
 <td valign="top" width="58%">
 
 <p align="left">
-  <img width="540" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/main/.github/assets/profile-signal.svg?v=6" alt="Profile signal board" />
+  <img width="540" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/main/.github/assets/profile-signal.svg?v=7" alt="Profile signal board" />
 </p>
 
 <br />
