@@ -162,6 +162,154 @@ jobs:
           subtitle="Total Lines Of Code Changed (Public + Private Repo)"
           write_svg "Code Change Stats" "$subtitle" "$total_changed" "$total_added" "$total_deleted"
 
+      - name: Generate streak snapshot card
+        env:
+          GH_USER: proxy-cmd
+        run: |
+          set -euo pipefail
+          mkdir -p dist
+          curl -fsSL "https://streak-stats.demolab.com?user=${GH_USER}&theme=tokyonight&hide_border=true&v=$(date +%s)" -o dist/streak-stats.svg
+
+      - name: Generate language mix card
+        env:
+          GH_USER: proxy-cmd
+          ALL_REPOS_PAT: ${{ secrets.ALL_REPOS_PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          mkdir -p dist
+
+          auth_token="${ALL_REPOS_PAT:-${GITHUB_TOKEN:-}}"
+
+          api_get() {
+            local url="$1"
+            if [ -n "${auth_token:-}" ]; then
+              curl -fsSL \
+                -H "Authorization: Bearer ${auth_token}" \
+                -H "Accept: application/vnd.github+json" \
+                "$url"
+            else
+              curl -fsSL \
+                -H "Accept: application/vnd.github+json" \
+                "$url"
+            fi
+          }
+
+          repo_endpoint="https://api.github.com/users/${GH_USER}/repos?per_page=100&page="
+          if [ -n "${ALL_REPOS_PAT:-}" ]; then
+            repo_endpoint="https://api.github.com/user/repos?visibility=all&affiliation=owner&per_page=100&page="
+          fi
+
+          lang_pairs=$(mktemp)
+          page=1
+
+          while :; do
+            repos_json=$(api_get "${repo_endpoint}${page}")
+            count=$(echo "$repos_json" | jq 'length')
+            if [ "$count" -eq 0 ]; then
+              break
+            fi
+
+            while IFS= read -r repo; do
+              [ -z "$repo" ] && continue
+              langs=$(api_get "https://api.github.com/repos/${repo}/languages" || echo "{}")
+              echo "$langs" | jq -r 'to_entries[]? | "\(.key)\t\(.value)"' >> "$lang_pairs"
+            done < <(echo "$repos_json" | jq -r '.[].full_name')
+
+            page=$((page + 1))
+          done
+
+          if [ ! -s "$lang_pairs" ]; then
+            cat > dist/language-mix.svg <<'EOF'
+          <svg width="820" height="220" viewBox="0 0 820 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Language mix">
+            <rect width="820" height="220" rx="12" fill="#1A1B27"/>
+            <text x="28" y="48" fill="#70A5FD" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Language Mix</text>
+            <text x="28" y="92" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="14">No language data found yet.</text>
+          </svg>
+          EOF
+            rm -f "$lang_pairs"
+            exit 0
+          fi
+
+          lang_stats=$(awk -F '\t' '
+            { sum[$1] += $2; total += $2 }
+            END {
+              for (k in sum) {
+                pct = (total > 0) ? (sum[k] * 100 / total) : 0
+                printf "%s\t%.6f\t%d\n", k, pct, sum[k]
+              }
+            }
+          ' "$lang_pairs" | sort -k2,2nr | head -n 5)
+
+          total_pct=$(echo "$lang_stats" | awk -F '\t' '{s+=$2} END {if (s==0) print 1; else print s}')
+
+          color_for() {
+            case "$1" in
+              Python) echo "#3572A5" ;;
+              JavaScript) echo "#f1e05a" ;;
+              TypeScript) echo "#3178c6" ;;
+              Jupyter\ Notebook) echo "#DA5B0B" ;;
+              HTML) echo "#e34c26" ;;
+              CSS) echo "#563d7c" ;;
+              Shell) echo "#89e051" ;;
+              C) echo "#555555" ;;
+              C++) echo "#f34b7d" ;;
+              Java) echo "#b07219" ;;
+              Go) echo "#00ADD8" ;;
+              Rust) echo "#dea584" ;;
+              *) echo "#58a6ff" ;;
+            esac
+          }
+
+          bar_x=28
+          bar_y=80
+          bar_w=764
+          bar_h=12
+          cur_x=$bar_x
+
+          segments=""
+          labels=""
+          label_y1=132
+          label_y2=164
+          i=0
+
+          while IFS=$'\t' read -r lang pct bytes; do
+            [ -z "$lang" ] && continue
+            color=$(color_for "$lang")
+            seg_w=$(awk -v p="$pct" -v t="$total_pct" -v w="$bar_w" 'BEGIN { printf "%.3f", (p/t)*w }')
+            labels_pct=$(awk -v p="$pct" 'BEGIN { printf "%.2f", p }')
+
+            segments="${segments}<rect x=\"${cur_x}\" y=\"${bar_y}\" width=\"${seg_w}\" height=\"${bar_h}\" fill=\"${color}\" rx=\"6\" />"
+
+            if [ "$i" -lt 3 ]; then
+              lx=$(awk -v base="28" -v idx="$i" 'BEGIN { printf "%.0f", base + (idx * 250) }')
+              labels="${labels}<circle cx=\"${lx}\" cy=\"${label_y1}\" r=\"8\" fill=\"${color}\" />"
+              ly1=$((label_y1 + 5))
+              labels="${labels}<text x=\"$(($lx + 14))\" y=\"${ly1}\" fill=\"#38BDAE\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"14\">${lang} ${labels_pct}%</text>"
+            else
+              j=$((i - 3))
+              lx=$(awk -v base="28" -v idx="$j" 'BEGIN { printf "%.0f", base + (idx * 250) }')
+              labels="${labels}<circle cx=\"${lx}\" cy=\"${label_y2}\" r=\"8\" fill=\"${color}\" />"
+              ly2=$((label_y2 + 5))
+              labels="${labels}<text x=\"$(($lx + 14))\" y=\"${ly2}\" fill=\"#38BDAE\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"14\">${lang} ${labels_pct}%</text>"
+            fi
+
+            cur_x=$(awk -v x="$cur_x" -v w="$seg_w" 'BEGIN { printf "%.3f", x+w }')
+            i=$((i + 1))
+          done <<< "$lang_stats"
+
+          cat > dist/language-mix.svg <<EOF
+          <svg width="820" height="220" viewBox="0 0 820 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Most used languages">
+            <rect width="820" height="220" rx="12" fill="#1A1B27"/>
+            <text x="28" y="48" fill="#70A5FD" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Most Used Languages</text>
+            <rect x="${bar_x}" y="${bar_y}" width="${bar_w}" height="${bar_h}" fill="#2b3440" rx="6"/>
+            ${segments}
+            ${labels}
+          </svg>
+          EOF
+
+          rm -f "$lang_pairs"
+
       - name: Generate profile signal card
         env:
           GH_USER: proxy-cmd
@@ -221,7 +369,11 @@ jobs:
           total_issues=$(api_get "https://api.github.com/search/issues?q=author:${GH_USER}+type:issue+${user_scope}" | jq '.total_count // 0')
           closed_issues=$(api_get "https://api.github.com/search/issues?q=author:${GH_USER}+type:issue+state:closed+${user_scope}" | jq '.total_count // 0')
 
-          streak_svg=$(curl -fsSL "https://streak-stats.demolab.com?user=${GH_USER}&theme=tokyonight&hide_border=true&v=$(date +%s)")
+          if [ -f dist/streak-stats.svg ]; then
+            streak_svg=$(cat dist/streak-stats.svg)
+          else
+            streak_svg=$(curl -fsSL "https://streak-stats.demolab.com?user=${GH_USER}&theme=tokyonight&hide_border=true&v=$(date +%s)")
+          fi
           contributions=$(printf "%s" "$streak_svg" | perl -0ne 'print "$1\n" if /<!-- Total Contributions big number -->.*?<text[^>]*>\s*([0-9]+)\s*<\/text>/s')
           if [ -z "${contributions:-}" ]; then
             contributions=0
@@ -254,7 +406,7 @@ jobs:
             <text x="74" y="147" fill="#3fb950" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">ONLINE</text>
 
             <text x="36" y="218" fill="#e6edf3" font-family="Segoe UI, Arial, sans-serif" font-size="56" font-weight="700">Ujjwal Sharma</text>
-            <text x="36" y="258" fill="#58a6ff" font-family="Segoe UI, Arial, sans-serif" font-size="24">AI | ML Student | Data Science Enthusiast</text>
+            <text x="36" y="258" fill="#58a6ff" font-family="Segoe UI, Arial, sans-serif" font-size="24">AI | ML Student | Computer Vision Enthusiast</text>
             <text x="36" y="294" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="17">Build mode: shipping, debugging, improving</text>
 
             <text x="562" y="150" fill="#58a6ff" font-family="Segoe UI, Arial, sans-serif" font-size="21">Total Repo</text>

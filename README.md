@@ -83,13 +83,13 @@ Artificial Intelligence, Machine Learning, Computer Vision & Data Science
 
 <p align="center">
   <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=proxy-cmd&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&v=20260304a" />
-  <img width="49%" src="https://streak-stats.demolab.com?user=proxy-cmd&theme=tokyonight&hide_border=true&v=20260304a" />
+  <img width="49%" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/streak-stats.svg?v=20260311a" />
 </p>
 
 <table width="100%" cellspacing="0" cellpadding="0" border="0">
 <tr>
 <td width="60%" valign="middle" align="left">
-  <img width="100%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=proxy-cmd&layout=compact&card_width=520&theme=tokyonight&hide_border=true&langs_count=6&hide=html,css&size_weight=0.35&count_weight=0.65&v=20260308d" alt="Language mix" />
+  <img width="100%" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/language-mix.svg?v=20260311a" alt="Language mix" />
 </td>
 <td width="6%"></td>
 <td width="34%" valign="middle" align="center">
