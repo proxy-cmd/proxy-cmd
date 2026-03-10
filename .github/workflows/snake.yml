@@ -24,6 +24,7 @@ jobs:
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: proxy-cmd
+          github_token: ${{ secrets.ALL_REPOS_PAT }}
 
       - name: Generate snake animation
         uses: Platane/snk@v3

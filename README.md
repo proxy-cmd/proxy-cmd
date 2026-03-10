@@ -102,9 +102,9 @@ Artificial Intelligence, Machine Learning, Computer Vision & Data Science
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/pacman-contribution-graph-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/pacman-contribution-graph.svg">
-    <img width="100%" alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/pacman-contribution-graph.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/pacman-contribution-graph-dark.svg?v=20260311a">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/pacman-contribution-graph.svg?v=20260311a">
+    <img width="100%" alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/pacman-contribution-graph.svg?v=20260311a">
   </picture>
 </p>
 
