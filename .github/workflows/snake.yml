@@ -166,10 +166,147 @@ jobs:
       - name: Generate streak snapshot card
         env:
           GH_USER: proxy-cmd
+          ALL_REPOS_PAT: ${{ secrets.ALL_REPOS_PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euo pipefail
           mkdir -p dist
-          curl -fsSL "https://streak-stats.demolab.com?user=${GH_USER}&theme=tokyonight&hide_border=true&v=$(date +%s)" -o dist/streak-stats.svg
+
+          auth_token="${ALL_REPOS_PAT:-${GITHUB_TOKEN:-}}"
+          if [ -z "${auth_token}" ]; then
+            echo "Missing token for streak generation"
+            exit 1
+          fi
+
+          user_json=$(curl -fsSL \
+            -H "Authorization: Bearer ${auth_token}" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/users/${GH_USER}")
+          created_at=$(echo "$user_json" | jq -r '.created_at')
+
+          from_date=$(date -u -d "$created_at" +"%Y-%m-%dT00:00:00Z")
+          to_date=$(date -u +"%Y-%m-%dT23:59:59Z")
+
+          graphql_payload=$(jq -n \
+            --arg login "$GH_USER" \
+            --arg from "$from_date" \
+            --arg to "$to_date" \
+            '{
+              query: "query($login:String!, $from:DateTime!, $to:DateTime!) { user(login:$login) { contributionsCollection(from:$from, to:$to) { contributionCalendar { totalContributions weeks { contributionDays { date contributionCount } } } } } }",
+              variables: { login: $login, from: $from, to: $to }
+            }')
+
+          calendar_json=$(curl -fsSL \
+            -H "Authorization: Bearer ${auth_token}" \
+            -H "Content-Type: application/json" \
+            --data "$graphql_payload" \
+            "https://api.github.com/graphql")
+
+          echo "$calendar_json" | jq -e '.data.user.contributionsCollection.contributionCalendar' >/dev/null
+
+          total_contributions=$(echo "$calendar_json" | jq -r '.data.user.contributionsCollection.contributionCalendar.totalContributions')
+          echo "$total_contributions" > dist/contrib-total.txt
+
+          echo "$calendar_json" | jq -r '.data.user.contributionsCollection.contributionCalendar.weeks[].contributionDays[] | "\(.date)\t\(.contributionCount)"' > dist/contrib-days.tsv
+
+          streak_data=$(awk -F '\t' '
+            function diff_days(d1, d2, cmd, out) {
+              cmd = "date -u -d \"" d1 "\" +%s"; cmd | getline s1; close(cmd);
+              cmd = "date -u -d \"" d2 "\" +%s"; cmd | getline s2; close(cmd);
+              return int((s2 - s1) / 86400);
+            }
+            {
+              date = $1
+              count = $2 + 0
+              if (count > 0) {
+                if (prev_has_contrib && diff_days(prev_date, date) == 1) {
+                  curr_len++
+                } else {
+                  curr_len = 1
+                  curr_start = date
+                }
+                curr_end = date
+                prev_has_contrib = 1
+                prev_date = date
+
+                last_len = curr_len
+                last_start = curr_start
+                last_end = curr_end
+
+                if (curr_len > long_len) {
+                  long_len = curr_len
+                  long_start = curr_start
+                  long_end = curr_end
+                }
+              } else {
+                prev_has_contrib = 0
+              }
+            }
+            END {
+              if (last_len == 0) {
+                last_len = 0
+                last_start = "-"
+                last_end = "-"
+              }
+              if (long_len == 0) {
+                long_len = 0
+                long_start = "-"
+                long_end = "-"
+              }
+              printf "%d\t%s\t%s\t%d\t%s\t%s\n", last_len, last_start, last_end, long_len, long_start, long_end
+            }
+          ' dist/contrib-days.tsv)
+
+          current_streak=$(echo "$streak_data" | cut -f1)
+          current_start=$(echo "$streak_data" | cut -f2)
+          current_end=$(echo "$streak_data" | cut -f3)
+          longest_streak=$(echo "$streak_data" | cut -f4)
+          longest_start=$(echo "$streak_data" | cut -f5)
+          longest_end=$(echo "$streak_data" | cut -f6)
+
+          format_range() {
+            local from="$1"
+            local to="$2"
+            if [ "$from" = "-" ] || [ "$to" = "-" ]; then
+              echo "-"
+              return
+            fi
+            local from_fmt to_fmt
+            from_fmt=$(date -u -d "$from" +"%b %-d")
+            to_fmt=$(date -u -d "$to" +"%b %-d")
+            if [ "$from" = "$to" ]; then
+              echo "$to_fmt"
+            else
+              echo "$from_fmt - $to_fmt"
+            fi
+          }
+
+          total_range="$(date -u -d "$created_at" +"%b %-d, %Y") - Present"
+          current_range=$(format_range "$current_start" "$current_end")
+          longest_range=$(format_range "$longest_start" "$longest_end")
+
+          cat > dist/streak-stats.svg <<EOF
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495 195" width="495" height="195" role="img" aria-label="Streak stats">
+            <rect x="0.5" y="0.5" width="494" height="194" rx="4.5" fill="#1A1B27" stroke="none"/>
+            <line x1="165" y1="28" x2="165" y2="170" stroke="#E4E2E2" stroke-width="1"/>
+            <line x1="330" y1="28" x2="330" y2="170" stroke="#E4E2E2" stroke-width="1"/>
+
+            <text x="82.5" y="80" text-anchor="middle" fill="#70A5FD" font-family="Segoe UI, Ubuntu, sans-serif" font-weight="700" font-size="28">${total_contributions}</text>
+            <text x="82.5" y="116" text-anchor="middle" fill="#70A5FD" font-family="Segoe UI, Ubuntu, sans-serif" font-weight="400" font-size="14">Total Contributions</text>
+            <text x="82.5" y="146" text-anchor="middle" fill="#38BDAE" font-family="Segoe UI, Ubuntu, sans-serif" font-weight="400" font-size="12">${total_range}</text>
+
+            <circle cx="247.5" cy="71" r="40" fill="none" stroke="#70A5FD" stroke-width="5"/>
+            <text x="247.5" y="84" text-anchor="middle" fill="#BF91F3" font-family="Segoe UI, Ubuntu, sans-serif" font-weight="700" font-size="42">${current_streak}</text>
+            <text x="247.5" y="140" text-anchor="middle" fill="#BF91F3" font-family="Segoe UI, Ubuntu, sans-serif" font-weight="700" font-size="14">Current Streak</text>
+            <text x="247.5" y="165" text-anchor="middle" fill="#38BDAE" font-family="Segoe UI, Ubuntu, sans-serif" font-weight="400" font-size="12">${current_range}</text>
+
+            <text x="412.5" y="80" text-anchor="middle" fill="#70A5FD" font-family="Segoe UI, Ubuntu, sans-serif" font-weight="700" font-size="42">${longest_streak}</text>
+            <text x="412.5" y="116" text-anchor="middle" fill="#70A5FD" font-family="Segoe UI, Ubuntu, sans-serif" font-weight="400" font-size="14">Longest Streak</text>
+            <text x="412.5" y="146" text-anchor="middle" fill="#38BDAE" font-family="Segoe UI, Ubuntu, sans-serif" font-weight="400" font-size="12">${longest_range}</text>
+          </svg>
+          EOF
+
+          rm -f dist/contrib-days.tsv
 
       - name: Generate language mix card
         env:
@@ -370,12 +507,12 @@ jobs:
           total_issues=$(api_get "https://api.github.com/search/issues?q=author:${GH_USER}+type:issue+${user_scope}" | jq '.total_count // 0')
           closed_issues=$(api_get "https://api.github.com/search/issues?q=author:${GH_USER}+type:issue+state:closed+${user_scope}" | jq '.total_count // 0')
 
-          if [ -f dist/streak-stats.svg ]; then
-            streak_svg=$(cat dist/streak-stats.svg)
+          if [ -f dist/contrib-total.txt ]; then
+            contributions=$(cat dist/contrib-total.txt)
           else
             streak_svg=$(curl -fsSL "https://streak-stats.demolab.com?user=${GH_USER}&theme=tokyonight&hide_border=true&v=$(date +%s)")
+            contributions=$(printf "%s" "$streak_svg" | perl -0ne 'print "$1\n" if /<!-- Total Contributions big number -->.*?<text[^>]*>\s*([0-9]+)\s*<\/text>/s')
           fi
-          contributions=$(printf "%s" "$streak_svg" | perl -0ne 'print "$1\n" if /<!-- Total Contributions big number -->.*?<text[^>]*>\s*([0-9]+)\s*<\/text>/s')
           if [ -z "${contributions:-}" ]; then
             contributions=0
           fi
