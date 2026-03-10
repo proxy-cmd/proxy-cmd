@@ -50,7 +50,7 @@ Python | NumPy | Pandas | Matplotlib
 OpenCV | MediaPipe
 
 Interests:
-Artificial Intelligence, Machine Learning, and Data Science
+Artificial Intelligence, Machine Learning, Computer Vision & Data Science
 ```
 
 ## How I Work
