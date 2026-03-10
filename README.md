@@ -83,7 +83,7 @@ Artificial Intelligence, Machine Learning, Computer Vision & Data Science
 
 <p align="center">
   <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=proxy-cmd&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&v=20260304a" />
-  <img width="49%" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/streak-stats.svg?v=20260311b" />
+  <img width="49%" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/streak-stats.svg?v=20260311c" />
 </p>
 
 <table width="100%" cellspacing="0" cellpadding="0" border="0">

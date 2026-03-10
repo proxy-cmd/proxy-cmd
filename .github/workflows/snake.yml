@@ -166,10 +166,175 @@ jobs:
       - name: Generate streak snapshot card
         env:
           GH_USER: proxy-cmd
+          ALL_REPOS_PAT: ${{ secrets.ALL_REPOS_PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euo pipefail
           mkdir -p dist
-          curl -fsSL "https://streak-stats.demolab.com?user=${GH_USER}&theme=tokyonight&hide_border=true&v=$(date +%s)" -o dist/streak-stats.svg
+
+          auth_token="${ALL_REPOS_PAT:-${GITHUB_TOKEN:-}}"
+          if [ -z "${auth_token}" ]; then
+            echo "Missing token for streak generation"
+            exit 1
+          fi
+
+          api_get() {
+            local url="$1"
+            curl -fsSL \
+              -H "Authorization: Bearer ${auth_token}" \
+              -H "Accept: application/vnd.github+json" \
+              "$url"
+          }
+
+          # Keep total contributions aligned with GitHub contribution calendar.
+          upstream_svg=$(curl -fsSL "https://streak-stats.demolab.com?user=${GH_USER}&theme=tokyonight&hide_border=true&v=$(date +%s)")
+          total_contributions=$(printf "%s" "$upstream_svg" | perl -0ne 'print "$1\n" if /<!-- Total Contributions big number -->.*?<text[^>]*>\s*([0-9]+)\s*<\/text>/s')
+          total_range=$(printf "%s" "$upstream_svg" | perl -0ne 'print "$1\n" if /<!-- Total Contributions range -->.*?<text[^>]*>\s*([^<]+)\s*<\/text>/s')
+          if [ -z "${total_contributions:-}" ]; then
+            total_contributions=0
+          fi
+          if [ -z "${total_range:-}" ]; then
+            total_range="Dec 27, 2024 - Present"
+          fi
+          echo "$total_contributions" > dist/contrib-total.txt
+
+          repo_endpoint="https://api.github.com/users/${GH_USER}/repos?per_page=100&page="
+          if [ -n "${ALL_REPOS_PAT:-}" ]; then
+            repo_endpoint="https://api.github.com/user/repos?visibility=all&affiliation=owner&per_page=100&page="
+          fi
+
+          commit_days_file="dist/commit-days.tsv"
+          : > "$commit_days_file"
+          total_commits=0
+          page=1
+          since_date="2024-01-01T00:00:00Z"
+
+          while :; do
+            repos_json=$(api_get "${repo_endpoint}${page}")
+            repo_count=$(echo "$repos_json" | jq 'length')
+            if [ "$repo_count" -eq 0 ]; then
+              break
+            fi
+
+            while IFS= read -r repo; do
+              [ -z "$repo" ] && continue
+              commit_page=1
+              while :; do
+                commits_json=$(curl -sS \
+                  -H "Authorization: Bearer ${auth_token}" \
+                  -H "Accept: application/vnd.github+json" \
+                  "https://api.github.com/repos/${repo}/commits?author=${GH_USER}&since=${since_date}&per_page=100&page=${commit_page}")
+
+                # Empty/invalid/forbidden repos should just be skipped.
+                if ! echo "$commits_json" | jq -e 'type=="array"' >/dev/null 2>&1; then
+                  break
+                fi
+
+                ccount=$(echo "$commits_json" | jq 'length')
+                if [ "$ccount" -eq 0 ]; then
+                  break
+                fi
+
+                total_commits=$((total_commits + ccount))
+                echo "$commits_json" | jq -r '.[] | .commit.author.date // empty' | cut -c1-10 >> "$commit_days_file"
+                commit_page=$((commit_page + 1))
+              done
+            done < <(echo "$repos_json" | jq -r '.[].full_name')
+
+            page=$((page + 1))
+          done
+
+          if [ ! -s "$commit_days_file" ]; then
+            current_streak=0
+            longest_streak=0
+            current_range="-"
+            longest_range="-"
+          else
+            sort -u "$commit_days_file" -o "$commit_days_file"
+            streak_data=$(awk '
+              function ts(date, cmd, out) {
+                cmd = "date -u -d \"" date "\" +%s"
+                cmd | getline out
+                close(cmd)
+                return out
+              }
+              {
+                d=$1
+                t=ts(d)
+                if (NR==1) {
+                  cur=1; cur_start=d; cur_end=d
+                  max=1; max_start=d; max_end=d
+                } else {
+                  if ((t-prev_t)==86400) {
+                    cur++
+                    cur_end=d
+                  } else {
+                    cur=1
+                    cur_start=d
+                    cur_end=d
+                  }
+                  if (cur>max) {
+                    max=cur
+                    max_start=cur_start
+                    max_end=cur_end
+                  }
+                }
+                prev_t=t
+              }
+              END {
+                if (NR==0) {
+                  print "0\t-\t-\t0\t-\t-"
+                } else {
+                  print cur "\t" cur_start "\t" cur_end "\t" max "\t" max_start "\t" max_end
+                }
+              }
+            ' "$commit_days_file")
+
+            current_streak=$(echo "$streak_data" | cut -f1)
+            cs=$(echo "$streak_data" | cut -f2)
+            ce=$(echo "$streak_data" | cut -f3)
+            longest_streak=$(echo "$streak_data" | cut -f4)
+            ls=$(echo "$streak_data" | cut -f5)
+            le=$(echo "$streak_data" | cut -f6)
+
+            if [ "$cs" = "$ce" ]; then
+              current_range=$(date -u -d "$ce" +"%b %-d")
+            else
+              current_range="$(date -u -d "$cs" +"%b %-d") - $(date -u -d "$ce" +"%b %-d")"
+            fi
+            if [ "$ls" = "$le" ]; then
+              longest_range=$(date -u -d "$le" +"%b %-d")
+            else
+              longest_range="$(date -u -d "$ls" +"%b %-d") - $(date -u -d "$le" +"%b %-d")"
+            fi
+          fi
+
+          cat > dist/streak-stats.svg <<EOF
+          <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 495 195' width='495' height='195' direction='ltr'>
+            <defs>
+              <clipPath id='outer_rectangle'>
+                <rect width='495' height='195' rx='4.5'/>
+              </clipPath>
+            </defs>
+            <g clip-path='url(#outer_rectangle)'>
+              <rect fill='#1A1B27' rx='4.5' x='0.5' y='0.5' width='494' height='194'/>
+              <line x1='165' y1='28' x2='165' y2='170' stroke-width='1' stroke='#E4E2E2'/>
+              <line x1='330' y1='28' x2='330' y2='170' stroke-width='1' stroke='#E4E2E2'/>
+              <!-- Total Contributions big number -->
+              <text x='82.5' y='80' text-anchor='middle' fill='#70A5FD' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='700' font-size='28'>${total_contributions}</text>
+              <text x='82.5' y='116' text-anchor='middle' fill='#70A5FD' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='400' font-size='14'>Total Contributions</text>
+              <!-- Total Contributions range -->
+              <text x='82.5' y='146' text-anchor='middle' fill='#38BDAE' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='400' font-size='12'>${total_range}</text>
+              <circle cx='247.5' cy='71' r='40' fill='none' stroke='#70A5FD' stroke-width='5'/>
+              <text x='247.5' y='84' text-anchor='middle' fill='#BF91F3' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='700' font-size='42'>${current_streak}</text>
+              <text x='247.5' y='140' text-anchor='middle' fill='#BF91F3' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='700' font-size='14'>Current Commit Streak</text>
+              <text x='247.5' y='165' text-anchor='middle' fill='#38BDAE' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='400' font-size='12'>${current_range}</text>
+              <text x='412.5' y='80' text-anchor='middle' fill='#70A5FD' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='700' font-size='42'>${longest_streak}</text>
+              <text x='412.5' y='116' text-anchor='middle' fill='#70A5FD' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='400' font-size='14'>Longest Commit Streak</text>
+              <text x='412.5' y='146' text-anchor='middle' fill='#38BDAE' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='400' font-size='12'>${longest_range}</text>
+            </g>
+          </svg>
+          EOF
 
       - name: Generate language mix card
         env:
