@@ -74,10 +74,9 @@ Artificial Intelligence, Machine Learning, Computer Vision & Data Science
 
 | Track | Project | Tech Stack | Description | Status |
 |---|---|---|---|---|
-| Active | **VisioAI - Real-Time Object Detection System** | Python, OpenCV, YOLO | Real-time object detection system for live video streams using deep learning-based detection models. | Ongoing |
+| Active | **VisioAI - Real-Time Object Detection System** | Python, OpenCV, YOLO | Real-time object detection system for live video streams using deep learning-based detection models. | Actively Developing |
 | Active | **SignifyAI - Hand Sign to Speech System** | Python, OpenCV, MediaPipe, Text-to-Speech | Real-time computer vision system that processes live webcam input, detects 21 hand landmarks per frame using MediaPipe, and converts recognized gestures into spoken output. | Actively Developing |
 | Active | **University ERP Management System** | React, Node.js, MongoDB | Role-based ERP platform with authentication, dashboard modules, and structured backend APIs for academic workflow management. | Actively Developing |
-| Completed | **SportPulse - Multi-Sport Analytics Dashboard** | HTML, CSS, JavaScript | Interactive sports analytics dashboard with structured data visualization and responsive UI. | Completed |
 
 ## GitHub Activity
 
