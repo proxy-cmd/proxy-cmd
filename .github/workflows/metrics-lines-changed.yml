@@ -2,7 +2,8 @@ name: Update lines-changed card
 
 on:
   schedule:
-    - cron: "20 0 * * *" # 05:50 IST daily
+    - cron: "20 0 * * *"  # 05:50 IST daily
+    - cron: "20 12 * * *" # 17:50 IST daily (second run)
   workflow_dispatch:
 
 jobs:
