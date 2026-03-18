@@ -42,7 +42,7 @@ Name: Ujjwal
 Education: Bachelor's in Computer Applications (AI & ML Specialization)
 
 Primary Focus:
-AI, Machine Learning & Data Science with 
+AI, Machine Learning & Computer Vision with 
 strong emphasis on Python-based development.
 
 Core Stack:
@@ -50,7 +50,7 @@ Python | NumPy | Pandas | Matplotlib
 OpenCV | MediaPipe
 
 Interests:
-Artificial Intelligence, Machine Learning, Computer Vision & Data Science
+Artificial Intelligence, Machine Learning, Computer Vision.
 ```
 
 ## Technical Skills
