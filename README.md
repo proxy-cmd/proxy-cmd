@@ -9,6 +9,8 @@
 </tr>
 </table>
 
+I build real-time AI systems that interact with the real world.
+
 ## About
 
 Hii, I’m Ujjwal.
@@ -55,22 +57,25 @@ Python, Backend Development, and practical AI systems
 
 ## Build Focus
 
-- Real-time vision workflows: detection, tracking, and gesture-based interaction.
-- ML pipelines that convert visual data into usable product features.
-- Backend systems that support reliable and practical applications.
+- I build real-time vision systems for detection, tracking, and gestures.
+- I turn visual input into usable outputs in applications.
+- I create backend logic to support AI-based features.
 
-## Projects At A Glance
+## Projects
 
-| Project | Stack | Impact |
-|---|---|---|
-| **VisioAI - Real-Time Object Detection System** | Python, OpenCV, YOLO | Real-time object detection for live video streams. |
-| **SignifyAI - Hand Sign to Speech System** | Python, OpenCV, MediaPipe, Text-to-Speech | Converts recognized hand gestures into spoken output. |
-| **University ERP Management System** | React, Node.js, MongoDB | Role-based ERP with authentication, dashboard modules, and structured APIs. |
+**VisioAI**  
+I built a real-time object detection system using YOLO and OpenCV for live video.
+
+**SignifyAI**  
+I built a hand gesture recognition system using MediaPipe that converts signs into speech.
+
+**University ERP**  
+I built a role-based ERP system with authentication, dashboards, and backend APIs using React, Node.js, and MongoDB.
 
 ## Open To
 
-- Internships in Computer Vision, AI/ML, and Backend Development.
-- Collaboration on practical AI systems and developer-focused tools.
+- I’m open to internships in Computer Vision, AI/ML, and backend development.
+- I’m interested in working on real-world AI systems.
 
 ## GitHub Activity
 
