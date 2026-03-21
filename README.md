@@ -11,7 +11,7 @@
 
 ## About
 
-BCA student (AI & ML specialization) focused on building practical computer vision and machine learning projects.
+Bachelor's of Computer Applications student (AI & ML specialization) focused on building practical computer vision and machine learning projects.
 
 - Name: Ujjwal
 - Focus: AI, Machine Learning, Computer Vision
@@ -42,7 +42,8 @@ BCA student (AI & ML specialization) focused on building practical computer visi
 </p>
 
 <p>
-  <img width="320" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/lines-changed.svg?v=allrepos-v14" alt="Total lines of code changed." />
+  <img width="49%" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/lines-changed.svg?v=allrepos-v14" alt="Total lines of code changed." />
+  <img width="49%" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/language-mix.svg?v=20260321b" alt="Most used languages" />
 </p>
 
 ## Daily Contributions
