@@ -29,7 +29,7 @@
 
 <img width="300" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/main/.github/assets/umaru-typing.gif?v=3" alt="Umaru typing gif" />
 <br /><br />
-<img width="300" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/lines-changed.svg?v=allrepos-v13" alt="Total lines of code changed." />
+<img width="300" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/lines-changed.svg?v=allrepos-v14" alt="Total lines of code changed." />
 
 </td>
 </tr>
@@ -76,7 +76,7 @@ Artificial Intelligence, Machine Learning, Computer Vision.
 ## GitHub Activity
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=proxy-cmd&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=1800&v=20260321b" />
+  <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=proxy-cmd&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=1800&v=20260321c" />
   <img width="49%" src="https://streak-stats.demolab.com?user=proxy-cmd&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&cache_seconds=1800&v=20260321b" alt="GitHub contribution streak" />
 </p>
 
