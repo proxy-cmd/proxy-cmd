@@ -36,7 +36,7 @@ Computer Vision, Machine Learning, AI
 <td width="50%" valign="top">
 
 **Engineering Focus**  
-Python + Backend APIs for practical AI systems
+Python, Backend Development, and practical AI systems
 
 </td>
 </tr>
@@ -52,14 +52,14 @@ Python + Backend APIs for practical AI systems
   <img src="https://img.shields.io/badge/OpenCV-Computer%20Vision-0ea5e9?style=for-the-badge" />
   <img src="https://img.shields.io/badge/MediaPipe-Landmarks-22c55e?style=for-the-badge" />
   <img src="https://img.shields.io/badge/scikit--learn-ML-f59e0b?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Backend-API%20Design-3b82f6?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Backend-Development-3b82f6?style=for-the-badge" />
 </p>
 
 ## Build Focus
 
 - Real-time vision workflows: detection, tracking, and gesture-based interaction.
 - ML pipelines that convert visual data into usable product features.
-- Backend services for model integration, inference flow, and deployment.
+- Backend systems that support reliable and practical applications.
 
 ## Projects At A Glance
 
