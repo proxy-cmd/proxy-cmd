@@ -11,7 +11,7 @@
 
 ## About
 
-Bachelor's of Computer Applications student (AI & ML specialization) focused on building practical computer vision and machine learning projects.
+Bachelor's in Computer Applications student (AI & ML specialization) focused on building practical computer vision and machine learning projects.
 
 - Name: Ujjwal
 - Focus: AI, Machine Learning, Computer Vision
@@ -36,15 +36,26 @@ Bachelor's of Computer Applications student (AI & ML specialization) focused on 
 
 ## GitHub Activity
 
-<p>
-  <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=proxy-cmd&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=1800&v=20260321c" />
-  <img width="49%" src="https://streak-stats.demolab.com?user=proxy-cmd&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&cache_seconds=1800&v=20260321b" alt="GitHub contribution streak" />
-</p>
-
-<p>
-  <img width="49%" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/lines-changed.svg?v=allrepos-v14" alt="Total lines of code changed." />
-  <img width="49%" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/language-mix.svg?v=20260321b" alt="Most used languages" />
-</p>
+<table width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50%" valign="top">
+  <img width="100%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=proxy-cmd&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=1800&v=20260321c" alt="GitHub stats" />
+</td>
+<td width="50%" valign="top">
+  <img width="100%" src="https://streak-stats.demolab.com?user=proxy-cmd&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&cache_seconds=1800&v=20260321b" alt="GitHub contribution streak" />
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+  <img width="100%" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/language-mix.svg?v=20260321b" alt="Most used languages" />
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center" valign="top">
+  <img width="62%" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/lines-changed.svg?v=allrepos-v14" alt="Total lines of code changed." />
+</td>
+</tr>
+</table>
 
 ## Daily Contributions
 
