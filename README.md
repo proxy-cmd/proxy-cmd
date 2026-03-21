@@ -11,11 +11,11 @@
 
 ## About
 
-Bachelor of Computer Applications (AI & ML specialization) student focused on building practical software and data-driven systems.
+Bachelor of Computer Applications (AI & ML specialization) student focused on building practical backend systems and AI-driven applications.
 
 - Name: Ujjwal  
-- Focus: Software Development, Backend Systems, AI/ML, Computer Vision  
-- Core Stack: Python, JavaScript, Node.js, React, MongoDB, NumPy, Pandas, OpenCV
+- Focus: Backend Development, AI/ML, Computer Vision  
+- Core Stack: Python, Node.js, MongoDB, NumPy, Pandas, OpenCV, MediaPipe
 
 ## Skills
 
@@ -25,15 +25,15 @@ Bachelor of Computer Applications (AI & ML specialization) student focused on bu
 
 ## What I'm Building
 
-- Full-stack applications with clear workflows and maintainable backend APIs.
-- Real-time tools that combine software engineering with practical AI features.
-- Systems that prioritize reliability, usability, and iterative improvement.
+- Backend systems with maintainable APIs and clear service structure.
+- AI/ML and computer vision tools for real-time and practical use cases.
+- Reliable software workflows focused on iterative improvement.
 
 ## Strengths
 
-- Building end-to-end projects from idea to deployable implementation.
-- Designing clean APIs and structured backend logic.
-- Debugging effectively and improving systems through iteration.
+- Building backend-first solutions from design to deployment.
+- Applying Python, AI/ML, and CV techniques to usable products.
+- Designing clean APIs and improving systems through iterative debugging.
 
 ## Selected Projects
 
@@ -48,8 +48,8 @@ Bachelor of Computer Applications (AI & ML specialization) student focused on bu
 
 ## Open To
 
-- Internship opportunities in Software Engineering, Backend Development, and AI/ML.
-- Collaborations on practical products, developer tools, and real-world applications.
+- Internship opportunities in Backend Development, AI/ML, and Computer Vision.
+- Collaborations on practical AI systems, developer tools, and backend products.
 
 ## GitHub Activity
 
