@@ -9,47 +9,70 @@
 </tr>
 </table>
 
-## About
+## Profile Snapshot
 
-Bachelor of Computer Applications (AI & ML specialization) student focused on building practical backend systems and AI-driven applications.
+<table width="100%" cellspacing="0" cellpadding="8">
+<tr>
+<td width="50%" valign="top">
 
-- Name: Ujjwal  
-- Focus: Backend Development, AI/ML, Computer Vision  
-- Core Stack: Python, JavaScript , MongoDB, NumPy, Pandas, OpenCV, MediaPipe, Skit-learn.
+**Name**  
+Ujjwal
 
-## Skills
+</td>
+<td width="50%" valign="top">
+
+**Education**  
+Bachelor of Computer Applications (AI & ML Specialization)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**Primary Field**  
+Computer Vision, Machine Learning, AI
+
+</td>
+<td width="50%" valign="top">
+
+**Engineering Focus**  
+Python + Backend APIs for practical AI systems
+
+</td>
+</tr>
+</table>
+
+## Core Stack
 
 <p>
   <img src="https://skillicons.dev/icons?i=python,javascript,mongodb,mysql,git,github&theme=dark" alt="Core technology matrix" />
 </p>
 
-## What I'm Building
+<p>
+  <img src="https://img.shields.io/badge/OpenCV-Computer%20Vision-0ea5e9?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/MediaPipe-Landmarks-22c55e?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/scikit--learn-ML-f59e0b?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Backend-API%20Design-3b82f6?style=for-the-badge" />
+</p>
 
-- Computer vision systems for real-time detection, tracking, and scene understanding.
-- AI/ML pipelines that turn visual data into practical application features.
-- Backend services that support model integration, inference flow, and deployment.
+## Build Focus
 
-## Strengths
+- Real-time vision workflows: detection, tracking, and gesture-based interaction.
+- ML pipelines that convert visual data into usable product features.
+- Backend services for model integration, inference flow, and deployment.
 
-- Building computer vision workflows from preprocessing to model output integration.
-- Applying Python, machine learning, and AI methods to solve practical vision tasks.
-- Designing clean backend APIs for scalable and maintainable AI-powered systems.
+## Projects At A Glance
 
-## Selected Projects
-
-- **VisioAI - Real-Time Object Detection System**  
-  Python, OpenCV, YOLO - Real-time object detection for live video streams using deep learning-based models.
-
-- **SignifyAI - Hand Sign to Speech System**  
-  Python, OpenCV, MediaPipe, Text-to-Speech - Detects 21 hand landmarks per frame and converts recognized gestures into spoken output.
-
-- **University ERP Management System**  
-  React, Node.js, MongoDB - Role-based ERP platform with authentication, dashboard modules, and structured backend APIs.
+| Project | Stack | Impact |
+|---|---|---|
+| **VisioAI - Real-Time Object Detection System** | Python, OpenCV, YOLO | Real-time object detection for live video streams. |
+| **SignifyAI - Hand Sign to Speech System** | Python, OpenCV, MediaPipe, Text-to-Speech | Converts recognized hand gestures into spoken output. |
+| **University ERP Management System** | React, Node.js, MongoDB | Role-based ERP with authentication, dashboard modules, and structured APIs. |
 
 ## Open To
 
-- Internship opportunities in Backend Development, AI/ML, and Computer Vision.
-- Collaborations on practical AI systems, developer tools, and backend products.
+- Internships in Computer Vision, AI/ML, and Backend Development.
+- Collaboration on practical AI systems and developer-focused tools.
 
 ## GitHub Activity
 
