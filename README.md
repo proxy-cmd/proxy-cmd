@@ -46,13 +46,11 @@ Bachelor's in Computer Applications student (AI & ML specialization) focused on 
 </td>
 </tr>
 <tr>
-<td colspan="2" valign="top">
+<td width="62%" valign="top">
   <img width="100%" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/language-mix.svg?v=20260321b" alt="Most used languages" />
 </td>
-</tr>
-<tr>
-<td colspan="2" align="center" valign="top">
-  <img width="62%" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/lines-changed.svg?v=allrepos-v14" alt="Total lines of code changed." />
+<td width="38%" valign="top">
+  <img width="100%" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/lines-changed.svg?v=allrepos-v14" alt="Total lines of code changed." />
 </td>
 </tr>
 </table>
