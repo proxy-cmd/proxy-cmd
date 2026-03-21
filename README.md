@@ -19,7 +19,7 @@ I work mainly on computer vision and machine learning, with a focus on building 
 
 - Focus: Computer Vision, Machine Learning, AI.  
 - Stack: Python, OpenCV, MediaPipe, NumPy, Pandas, Skit-learn  
-- I also work on backend systems for AI-based & real-world applications  .
+- I also work on backend systems for AI-based & real-world applications.
 
 **Education**  
 Bachelor of Computer Applications (AI & ML Specialization).
@@ -30,7 +30,7 @@ Bachelor of Computer Applications (AI & ML Specialization).
 <td width="50%" valign="top">
 
 **Primary Field**  
-Python, Computer Vision, Machine Learning, AI.
+Computer Vision, Machine Learning, AI.
 
 </td>
 <td width="50%" valign="top">
