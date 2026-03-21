@@ -62,10 +62,16 @@ jobs:
           }
 
           # Fallback: this repository only
+          current_repo_totals() {
+            local added deleted changed
+            added=$(git log --pretty=tformat: --numstat | awk '{if ($1 ~ /^[0-9]+$/) add += $1} END {print add+0}')
+            deleted=$(git log --pretty=tformat: --numstat | awk '{if ($2 ~ /^[0-9]+$/) del += $2} END {print del+0}')
+            changed=$((added + deleted))
+            echo "${added} ${deleted} ${changed}"
+          }
+
           fallback_repo_only() {
-            ADDED=$(git log --pretty=tformat: --numstat | awk '{if ($1 ~ /^[0-9]+$/) add += $1} END {print add+0}')
-            DELETED=$(git log --pretty=tformat: --numstat | awk '{if ($2 ~ /^[0-9]+$/) del += $2} END {print del+0}')
-            CHANGED=$((ADDED + DELETED))
+            read -r ADDED DELETED CHANGED <<< "$(current_repo_totals)"
             write_svg "Total lines of code changed." "Total Lines Changed (This Repo)" "$CHANGED" "$ADDED" "$DELETED"
           }
 
@@ -111,6 +117,11 @@ jobs:
 
             while IFS= read -r repo; do
               [ -z "$repo" ] && continue
+              # Use local git history for the current repository for fresher values.
+              # /stats/contributors can lag for days and causes visible staleness.
+              if [ "${repo}" = "${GITHUB_REPOSITORY}" ]; then
+                continue
+              fi
               repo_count=$((repo_count + 1))
 
               data=""
@@ -147,8 +158,12 @@ jobs:
             page=$((page + 1))
           done
 
+          read -r local_added local_deleted local_changed <<< "$(current_repo_totals)"
+          total_added=$((total_added + local_added))
+          total_deleted=$((total_deleted + local_deleted))
           total_changed=$((total_added + total_deleted))
-          echo "Processed repos: ${repo_count}; repos with unavailable stats: ${missing_stats}"
+          echo "Processed repos via API: ${repo_count}; repos with unavailable stats: ${missing_stats}"
+          echo "Current repo (${GITHUB_REPOSITORY}) local totals: +${local_added} / -${local_deleted}"
 
           # Keep the card monotonic. GitHub stats endpoints can return partial data (202),
           # which otherwise causes visible drops between runs.
