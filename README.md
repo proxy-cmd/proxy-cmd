@@ -30,7 +30,7 @@ Bachelor of Computer Applications (AI & ML Specialization).
 <td width="50%" valign="top">
 
 **Primary Field**  
-Computer Vision, Machine Learning, AI.
+Python, Computer Vision, Machine Learning, AI.
 
 </td>
 <td width="50%" valign="top">
