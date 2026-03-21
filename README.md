@@ -15,7 +15,7 @@ Bachelor of Computer Applications (AI & ML specialization) student focused on bu
 
 - Name: Ujjwal  
 - Focus: Backend Development, AI/ML, Computer Vision  
-- Core Stack: Python, Node.js, MongoDB, NumPy, Pandas, OpenCV, MediaPipe
+- Core Stack: Python, JavaScript , MongoDB, NumPy, Pandas, OpenCV, MediaPipe, Skit-learn.
 
 ## Skills
 
@@ -25,15 +25,15 @@ Bachelor of Computer Applications (AI & ML specialization) student focused on bu
 
 ## What I'm Building
 
-- Backend systems with maintainable APIs and clear service structure.
-- AI/ML and computer vision tools for real-time and practical use cases.
-- Reliable software workflows focused on iterative improvement.
+- Computer vision systems for real-time detection, tracking, and scene understanding.
+- AI/ML pipelines that turn visual data into practical application features.
+- Backend services that support model integration, inference flow, and deployment.
 
 ## Strengths
 
-- Building backend-first solutions from design to deployment.
-- Applying Python, AI/ML, and CV techniques to usable products.
-- Designing clean APIs and improving systems through iterative debugging.
+- Building computer vision workflows from preprocessing to model output integration.
+- Applying Python, machine learning, and AI methods to solve practical vision tasks.
+- Designing clean backend APIs for scalable and maintainable AI-powered systems.
 
 ## Selected Projects
 
