@@ -11,11 +11,11 @@
 
 ## About
 
-Bachelor of Computer Applications (AI & ML specialization) student working on real-world computer vision and machine learning projects.
+Bachelor of Computer Applications (AI & ML specialization) student focused on building practical software and data-driven systems.
 
 - Name: Ujjwal  
-- Focus: Computer Vision, Machine Learning, AI systems  
-- Core Stack: Python, NumPy, Pandas, OpenCV, MediaPipe, Matplotlib
+- Focus: Software Development, Backend Systems, AI/ML, Computer Vision  
+- Core Stack: Python, JavaScript, Node.js, React, MongoDB, NumPy, Pandas, OpenCV
 
 ## Skills
 
@@ -25,15 +25,15 @@ Bachelor of Computer Applications (AI & ML specialization) student working on re
 
 ## What I'm Building
 
-- Real-time computer vision systems for live camera/video input.
-- AI-assisted interaction tools (gesture-to-speech and perception pipelines).
-- Full-stack academic workflow software with role-based access and modular APIs.
+- Full-stack applications with clear workflows and maintainable backend APIs.
+- Real-time tools that combine software engineering with practical AI features.
+- Systems that prioritize reliability, usability, and iterative improvement.
 
 ## Strengths
 
-- Building end-to-end prototypes from idea to working demo.
-- Converting ML/CV logic into usable application features.
-- Iterative debugging and shipping with clean, maintainable code.
+- Building end-to-end projects from idea to deployable implementation.
+- Designing clean APIs and structured backend logic.
+- Debugging effectively and improving systems through iteration.
 
 ## Selected Projects
 
@@ -48,8 +48,8 @@ Bachelor of Computer Applications (AI & ML specialization) student working on re
 
 ## Open To
 
-- Internship opportunities in AI/ML, Computer Vision, or Backend Engineering.
-- Collaborations on practical ML products and developer tools.
+- Internship opportunities in Software Engineering, Backend Development, and AI/ML.
+- Collaborations on practical products, developer tools, and real-world applications.
 
 ## GitHub Activity
 
