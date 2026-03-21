@@ -29,7 +29,7 @@
 
 <img width="300" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/main/.github/assets/umaru-typing.gif?v=3" alt="Umaru typing gif" />
 <br /><br />
-<img width="300" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/lines-changed.svg?v=allrepos-v4" alt="Total lines of code changed." />
+<img width="300" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/lines-changed.svg?v=allrepos-v12" alt="Total lines of code changed." />
 
 </td>
 </tr>
