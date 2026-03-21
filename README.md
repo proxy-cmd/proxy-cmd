@@ -23,6 +23,18 @@ Bachelor of Computer Applications (AI & ML specialization) student working on re
   <img src="https://skillicons.dev/icons?i=python,javascript,mongodb,mysql,git,github&theme=dark" alt="Core technology matrix" />
 </p>
 
+## What I'm Building
+
+- Real-time computer vision systems for live camera/video input.
+- AI-assisted interaction tools (gesture-to-speech and perception pipelines).
+- Full-stack academic workflow software with role-based access and modular APIs.
+
+## Strengths
+
+- Building end-to-end prototypes from idea to working demo.
+- Converting ML/CV logic into usable application features.
+- Iterative debugging and shipping with clean, maintainable code.
+
 ## Selected Projects
 
 - **VisioAI - Real-Time Object Detection System**  
@@ -33,6 +45,11 @@ Bachelor of Computer Applications (AI & ML specialization) student working on re
 
 - **University ERP Management System**  
   React, Node.js, MongoDB - Role-based ERP platform with authentication, dashboard modules, and structured backend APIs.
+
+## Open To
+
+- Internship opportunities in AI/ML, Computer Vision, or Backend Engineering.
+- Collaborations on practical ML products and developer tools.
 
 ## GitHub Activity
 
