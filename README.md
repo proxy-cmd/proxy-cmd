@@ -76,8 +76,8 @@ Artificial Intelligence, Machine Learning, Computer Vision.
 ## GitHub Activity
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=proxy-cmd&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&v=20260304a" />
-  <img width="49%" src="https://streak-stats.demolab.com?user=proxy-cmd&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&cache_seconds=1800" alt="GitHub contribution streak" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=proxy-cmd&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=1800&v=20260321a" />
+  <img width="49%" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/streak-stats.svg?v=20260321a" alt="GitHub contribution streak" />
 </p>
 
 <table width="100%" cellspacing="0" cellpadding="0" border="0">
