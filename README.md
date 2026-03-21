@@ -9,17 +9,15 @@
 </tr>
 </table>
 
-## Profile Snapshot
+## About
 
-<table width="100%" cellspacing="0" cellpadding="8">
-<tr>
-<td width="50%" valign="top">
+Hii, I’m Ujjwal.
 
-**Name**  
-Ujjwal
+I work mainly on computer vision and machine learning, with a focus on building real & working systems.
 
-</td>
-<td width="50%" valign="top">
+- Focus: Computer Vision, Machine Learning, AI  
+- Stack: Python, OpenCV, MediaPipe, NumPy, Pandas  
+- I also work on backend systems for AI-based & real-world applications  
 
 **Education**  
 Bachelor of Computer Applications (AI & ML Specialization)
@@ -35,7 +33,7 @@ Computer Vision, Machine Learning, AI
 </td>
 <td width="50%" valign="top">
 
-**Engineering Focus**  
+**What I Build**  
 Python, Backend Development, and practical AI systems
 
 </td>
