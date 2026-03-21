@@ -36,7 +36,7 @@ Computer Vision, Machine Learning, AI
 <td width="50%" valign="top">
 
 **What I Build**  
-Python, Backend Development, and practical AI systems
+ML Models, Backend Development, and practical AI systems
 
 </td>
 </tr>
@@ -44,11 +44,11 @@ Python, Backend Development, and practical AI systems
 
 ## Core Stack
 
-<p>
+<p align="center">
   <img src="https://skillicons.dev/icons?i=python,javascript,mongodb,mysql,git,github&theme=dark" alt="Core technology matrix" />
 </p>
 
-<p>
+<p align="center">
   <img src="https://img.shields.io/badge/OpenCV-Computer%20Vision-0ea5e9?style=for-the-badge" />
   <img src="https://img.shields.io/badge/MediaPipe-Landmarks-22c55e?style=for-the-badge" />
   <img src="https://img.shields.io/badge/scikit--learn-ML-f59e0b?style=for-the-badge" />
@@ -59,18 +59,15 @@ Python, Backend Development, and practical AI systems
 
 - I build real-time vision systems for detection, tracking, and gestures.
 - I turn visual input into usable outputs in applications.
-- I create backend logic to support AI-based features.
+- I create backend logic to support real-world app features.
 
 ## Projects
 
-**VisioAI**  
-I built a real-time object detection system using YOLO and OpenCV for live video.
-
-**SignifyAI**  
-I built a hand gesture recognition system using MediaPipe that converts signs into speech.
-
-**University ERP**  
-I built a role-based ERP system with authentication, dashboards, and backend APIs using React, Node.js, and MongoDB.
+| Project | Stack | Description |
+|---|---|---|
+| **VisioAI** | Python, OpenCV, YOLO | I built a real-time object detection system using YOLO and OpenCV for live video. |
+| **SignifyAI** | Python, OpenCV, MediaPipe, Text-to-Speech | I built a hand gesture recognition system using MediaPipe that converts signs into speech. |
+| **University ERP** | React, Node.js, MongoDB | I built a role-based ERP system with authentication, dashboards, and backend APIs. |
 
 ## Open To
 
