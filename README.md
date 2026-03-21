@@ -17,12 +17,12 @@ Hii, I’m Ujjwal.
 
 I work mainly on computer vision and machine learning, with a focus on building real & working systems.
 
-- Focus: Computer Vision, Machine Learning, AI  
-- Stack: Python, OpenCV, MediaPipe, NumPy, Pandas  
-- I also work on backend systems for AI-based & real-world applications  
+- Focus: Computer Vision, Machine Learning, AI.  
+- Stack: Python, OpenCV, MediaPipe, NumPy, Pandas, Skit-learn  
+- I also work on backend systems for AI-based & real-world applications  .
 
 **Education**  
-Bachelor of Computer Applications (AI & ML Specialization)
+Bachelor of Computer Applications (AI & ML Specialization).
 
 </td>
 </tr>
@@ -30,13 +30,13 @@ Bachelor of Computer Applications (AI & ML Specialization)
 <td width="50%" valign="top">
 
 **Primary Field**  
-Computer Vision, Machine Learning, AI
+Computer Vision, Machine Learning, AI.
 
 </td>
 <td width="50%" valign="top">
 
 **What I Build**  
-ML Models, Backend Development, and practical AI systems
+ML Models, Backend Development, and practical AI systems.
 
 </td>
 </tr>
@@ -65,14 +65,14 @@ ML Models, Backend Development, and practical AI systems
 
 | Project | Stack | Description |
 |---|---|---|
-| **VisioAI** | Python, OpenCV, YOLO | I built a real-time object detection system using YOLO and OpenCV for live video. |
-| **SignifyAI** | Python, OpenCV, MediaPipe, Text-to-Speech | I built a hand gesture recognition system using MediaPipe that converts signs into speech. |
-| **University ERP** | React, Node.js, MongoDB | I built a role-based ERP system with authentication, dashboards, and backend APIs. |
+| **VisioAI** | Python, OpenCV, YOLO | Real-time object detection system using YOLO and OpenCV with audio output for detected objects. |
+| **SignifyAI** | Python, OpenCV, MediaPipe, Text-to-Speech | Gesture recognition system using MediaPipe that converts signs and eye movements into speech. |
+| **University ERP** | React, Node.js, MongoDB | Role-based ERP system with authentication, dashboards, and backend APIs. |
 
 ## Open To
 
 - I’m open to internships in Computer Vision, AI/ML, and backend development.
-- I’m interested in working on real-world AI systems.
+- I’m interested in working on real-world AI/Ml and Computer Vision systems.
 
 ## GitHub Activity
 
