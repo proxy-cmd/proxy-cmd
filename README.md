@@ -1,7 +1,7 @@
 <table width="100%" cellspacing="0" cellpadding="0">
 <tr>
-<td width="82%" valign="middle">
-  <img width="620" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/main/.github/assets/lets-code-typing.gif?v=1" alt="Lets code typing banner" />
+<td width="85%" valign="middle">
+  <img width="650" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/main/.github/assets/lets-code-typing.gif?v=1" alt="Lets code typing banner" />
 </td>
 <td width="18%" valign="middle" align="right">
   <img width="90" src="https://user-images.githubusercontent.com/74038190/226127923-0e8b7792-7b3c-462b-951b-63c96ba1a5af.gif" alt="Typing cat mascot" />
