@@ -11,11 +11,11 @@
 
 ## About
 
-Bachelor's in Computer Applications student (AI & ML specialization) focused on building practical computer vision and machine learning projects.
+Bachelor of Computer Applications (AI & ML specialization) student working on real-world computer vision and machine learning projects.
 
-- Name: Ujjwal
-- Focus: AI, Machine Learning, Computer Vision
-- Core Stack: Python, NumPy, Pandas, Matplotlib, OpenCV, MediaPipe
+- Name: Ujjwal  
+- Focus: Computer Vision, Machine Learning, AI systems  
+- Core Stack: Python, NumPy, Pandas, OpenCV, MediaPipe, Matplotlib
 
 ## Skills
 
