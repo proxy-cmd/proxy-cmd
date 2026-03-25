@@ -13,7 +13,7 @@ I build real-time AI systems that interact with the real world.
 
 ## About
 
-Hii, I’m Ujjwal.
+Hii 😄, I’m Ujjwal.
 
 I work mainly on computer vision and machine learning, with a focus on building real & working systems.
 
