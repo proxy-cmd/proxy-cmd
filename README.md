@@ -82,7 +82,7 @@ ML Models, Backend Development, and practical AI systems.
 </p>
 
 <p align="center">
-  <img width="40%" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/lines-changed.svg?v=allrepos-v14" />
+  <img width="40%" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/lines-changed.svg?v=allrepos-v16" />
   <img width="46%" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/output/language-mix.svg?v=20260321b" />
 </p>
 
