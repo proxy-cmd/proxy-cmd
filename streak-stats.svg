@@ -1,0 +1,25 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 495 195' width='495' height='195' direction='ltr'>
+  <defs>
+    <clipPath id='outer_rectangle'>
+      <rect width='495' height='195' rx='4.5'/>
+    </clipPath>
+  </defs>
+  <g clip-path='url(#outer_rectangle)'>
+    <rect fill='#1A1B27' rx='4.5' x='0.5' y='0.5' width='494' height='194'/>
+    <line x1='165' y1='28' x2='165' y2='170' stroke-width='1' stroke='#E4E2E2'/>
+    <line x1='330' y1='28' x2='330' y2='170' stroke-width='1' stroke='#E4E2E2'/>
+    <!-- Total Contributions big number -->
+    <text x='82.5' y='80' text-anchor='middle' fill='#70A5FD' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='700' font-size='28'>714</text>
+    <text x='82.5' y='116' text-anchor='middle' fill='#70A5FD' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='400' font-size='14'>Total Contributions</text>
+    <!-- Total Contributions range -->
+    <text x='82.5' y='146' text-anchor='middle' fill='#38BDAE' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='400' font-size='12'>Dec 27, 2024 - Present
+                    </text>
+    <circle cx='247.5' cy='71' r='40' fill='none' stroke='#70A5FD' stroke-width='5'/>
+    <text x='247.5' y='84' text-anchor='middle' fill='#BF91F3' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='700' font-size='42'>3</text>
+    <text x='247.5' y='140' text-anchor='middle' fill='#BF91F3' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='700' font-size='14'>Current Commit Streak</text>
+    <text x='247.5' y='165' text-anchor='middle' fill='#38BDAE' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='400' font-size='12'>Mar 23 - Mar 25</text>
+    <text x='412.5' y='80' text-anchor='middle' fill='#70A5FD' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='700' font-size='42'>9</text>
+    <text x='412.5' y='116' text-anchor='middle' fill='#70A5FD' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='400' font-size='14'>Longest Commit Streak</text>
+    <text x='412.5' y='146' text-anchor='middle' fill='#38BDAE' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='400' font-size='12'>Mar 10 - Mar 18</text>
+  </g>
+</svg>
