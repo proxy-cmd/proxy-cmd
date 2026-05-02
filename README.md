@@ -1,4 +1,4 @@
-<table width="100%" cellspacing="0" cellpadding="0">
+﻿<table width="100%" cellspacing="0" cellpadding="0">
 <tr>
 <td width="85%" valign="middle">
   <img width="650" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/main/.github/assets/lets-code-typing.gif?v=1" alt="Lets code typing banner" />
@@ -9,7 +9,7 @@
 </tr>
 </table>
 
-I build real-time AI systems that interact with the real world.
+I build real-time systems that interact with the real world.
 
 ## About
 
@@ -17,9 +17,9 @@ Hii 😄, I’m Ujjwal.
 
 I work mainly on computer vision and machine learning, with a focus on building real & working systems.
 
-- Focus: Computer Vision, Machine Learning, AI.  
+- Focus: Data Analysis, Computer Vision, Machine Learning, AI.  
 - Stack: Python, OpenCV, MediaPipe, NumPy, Pandas, Skit-learn  
-- I also work on backend systems for AI-based & real-world applications.
+- I also work on Data Analysis (Business Analytics).
 
 **Education**  
 Bachelor of Computer Applications (AI & ML Specialization).
@@ -30,13 +30,13 @@ Bachelor of Computer Applications (AI & ML Specialization).
 <td width="50%" valign="top">
 
 **Primary Field**  
-Computer Vision, Machine Learning, AI.
+Data Analysis, Computer Vision, Machine Learning, AI.
 
 </td>
 <td width="50%" valign="top">
 
 **What I Build**  
-ML Models, Backend Development, and practical AI systems.
+Data Analysis & Visualisation systems, ML Models, and practical AI systems.
 
 </td>
 </tr>
@@ -59,7 +59,7 @@ ML Models, Backend Development, and practical AI systems.
 
 - I build real-time vision systems for detection, tracking, and gestures.
 - I turn visual input into usable outputs in applications.
-- I create backend logic to support real-world app features.
+- I build systems that transform data into business insights.
 
 ## Projects
 
@@ -71,8 +71,8 @@ ML Models, Backend Development, and practical AI systems.
 
 ## Open To
 
-- I’m open to internships in Computer Vision, AI/ML, and backend development.
-- I’m interested in working on real-world AI/Ml and Computer Vision systems.
+- I’m open to internships in Computer Vision, AI/ML, and Data Analysis.
+- I’m interested in working on real-world AI/Ml, Computer Vision and Data Analysis.
 
 ## GitHub Activity
 
