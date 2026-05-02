@@ -1,4 +1,4 @@
-<table width="100%" cellspacing="0" cellpadding="0">
+﻿<table width="100%" cellspacing="0" cellpadding="0">
 <tr>
 <td width="85%" valign="middle">
   <img width="650" src="https://raw.githubusercontent.com/proxy-cmd/proxy-cmd/main/.github/assets/lets-code-typing.gif?v=1" alt="Lets code typing banner" />
@@ -13,19 +13,18 @@ I build real-time AI systems that interact with the real world.
 
 ## About
 
-Hii 😄, I’m Ujjwal.
+Hii 😄, I'm Ujjwal.
 
 I work mainly on computer vision and machine learning, with a focus on building real & working systems.
 
 - Focus: Computer Vision, Machine Learning, AI.  
-- Stack: Python, OpenCV, MediaPipe, NumPy, Pandas, Skit-learn  
+- Stack: Python, OpenCV, MediaPipe, NumPy, Pandas, Scikit-learn  
 - I also work on backend systems for AI-based & real-world applications.
 
 **Education**  
 Bachelor of Computer Applications (AI & ML Specialization).
 
-</td>
-</tr>
+<table width="100%" cellspacing="0" cellpadding="0">
 <tr>
 <td width="50%" valign="top">
 
@@ -71,8 +70,8 @@ ML Models, Backend Development, and practical AI systems.
 
 ## Open To
 
-- I’m open to internships in Computer Vision, AI/ML, and backend development.
-- I’m interested in working on real-world AI/Ml and Computer Vision systems.
+- I'm open to internships in Computer Vision, AI/ML, and backend development.
+- I'm interested in working on real-world AI/ML and Computer Vision systems.
 
 ## GitHub Activity
 
@@ -106,6 +105,6 @@ ML Models, Backend Development, and practical AI systems.
 
 <div align="center">
 
-`Learning. Building. Improving.`
+Learning. Building. Improving.
 
 </div>
