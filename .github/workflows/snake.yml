@@ -98,6 +98,7 @@ jobs:
             exit 0
           fi
 
+          echo "DEBUG: ALL_REPOS_PAT is set. Fetching all repos..."
           total_added=0
           total_deleted=0
           repo_count=0
@@ -105,12 +106,14 @@ jobs:
           page=1
 
           while :; do
+            echo "DEBUG: Fetching repos page ${page}..."
             repos_json=$(curl -sS \
               -H "Authorization: Bearer ${ALL_REPOS_PAT}" \
               -H "Accept: application/vnd.github+json" \
               "https://api.github.com/user/repos?visibility=all&affiliation=owner&per_page=100&page=${page}")
 
             count=$(echo "$repos_json" | jq 'length')
+            echo "DEBUG: Page ${page} returned ${count} repos"
             if [ "$count" -eq 0 ]; then
               break
             fi
@@ -162,6 +165,8 @@ jobs:
           total_added=$((total_added + local_added))
           total_deleted=$((total_deleted + local_deleted))
           total_changed=$((total_added + total_deleted))
+          echo "DEBUG: Final stats - repos processed: ${repo_count}, local repo: +${local_added}/-${local_deleted}"
+          echo "DEBUG: Total calculated: ${total_changed} lines (+${total_added} / -${total_deleted})"
           echo "Processed repos via API: ${repo_count}; repos with unavailable stats: ${missing_stats}"
           echo "Current repo (${GITHUB_REPOSITORY}) local totals: +${local_added} / -${local_deleted}"
 
