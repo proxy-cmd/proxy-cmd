@@ -17,8 +17,8 @@ Hii 😄, I’m Ujjwal.
 
 I work mainly on computer vision and machine learning, with a focus on building real & working systems.
 
-- Focus: Data Analysis, Computer Vision, Machine Learning, AI.  
-- Stack: Python, OpenCV, MediaPipe, NumPy, Pandas, Skit-learn  
+- Focus: Data Analysis, Computer Vision, AI.  
+- Stack: Python, OpenCV, MediaPipe, NumPy, Pandas.
 - I also work on Data Analysis (Business Analytics).
 
 **Education**  
@@ -30,13 +30,13 @@ Bachelor of Computer Applications (AI & ML Specialization).
 <td width="50%" valign="top">
 
 **Primary Field**  
-Data Analysis, Computer Vision, Machine Learning, AI.
+Data Analysis, Computer Vision, AI.
 
 </td>
 <td width="50%" valign="top">
 
 **What I Build**  
-Data Analysis & Visualisation systems, ML Models, and practical AI systems.
+Data Analysis & Visualisation systems, and practical AI systems.
 
 </td>
 </tr>
