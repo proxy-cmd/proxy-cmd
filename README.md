@@ -101,7 +101,11 @@ Data Analysis & Visualisation systems, and practical AI systems.
 <p align="center">
   <a href="https://github.com/proxy-cmd"><img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
   <a href="mailto:us094836@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/ujjwal-sharma-682264380/">
+  <img src="https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
   <img src="https://img.shields.io/badge/Discord-proxy.exe__-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
+
 </p>
 
 <div align="center">
