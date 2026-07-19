@@ -65,7 +65,7 @@ Data Analysis & Visualisation systems, and practical AI systems.
 
 | Project | Stack | Description |
 |---|---|---|
-| **VisioAI** | Python, OpenCV, YOLO | Real-time object detection system using YOLO and OpenCV with audio output for detected objects. |
+| **Pivot** | React, FastAPI, Python, Pandas, SQLite, Gemini API | AI-powered Business Intelligence platform with autonomous dataset profiling, safe data cleaning, SQL workspace, RAG-powered AI analyst, executive briefings, reports, lineage, and one-click Auto Pilot analysis. |
 | **SignifyAI** | Python, OpenCV, MediaPipe, Text-to-Speech | Gesture recognition system using MediaPipe that converts signs and eye movements into speech. |
 | **University ERP** | React, Node.js, MongoDB | Role-based ERP system with authentication, dashboards, and backend APIs. |
 
